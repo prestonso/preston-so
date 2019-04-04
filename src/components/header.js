@@ -4,10 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h1 style={{
-      padding: `2rem 1.5rem`,
-      fontFamily: `'basic-sans', 'Droid Sans', sans-serif`,
-    }}>
+    <h1>
       <Link to="/">
         {siteTitle}
       </Link>
@@ -24,7 +21,7 @@ const Header = ({ siteTitle }) => (
     <div className="header__language-selector">
       <p><strong>Decoupled Drupal in Practice</strong>: The comprehensive guide to decoupled Drupal across the stack.</p>
       <ul>
-        <li><a href="#">Available now on Amazon.com</a></li>
+        <li><a href="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1" target="_blank" rel="noopener noreferrer">Available now on Amazon.com</a></li>
       </ul>
     </div>
   </header>

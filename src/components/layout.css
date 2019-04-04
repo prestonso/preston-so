@@ -58,28 +58,19 @@ header ul li.active a, header a.active {
   text-decoration: none;
 }
 
-/*
+
 header h1 {
   padding: 2rem 1.5rem;
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
-}*/
-
-/*header h1 a {
-  color: #fff;
-}*/
-
-header h1 a:hover, header h1 a:active {
-  /* color: #ffecb3; */
-  color: #ccc;
 }
 
-/*header h1 a .link__tld {
-  color: #ffd966;
-}*/
-
-/*header h1 a:hover .link__tld, header h1 a:active .link__tld {
+header h1 a {
   color: #fff;
-}*/
+}
+
+header h1 a:hover, header h1 a:active {
+  color: #ccc;
+}
 
 header .header__language-selector {
   clear: both;
@@ -192,13 +183,6 @@ nav ul li a:hover,  nav ul li a:active {
   position: relative;
   z-index: 2;
 }
-
-/*.card__content__button {
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  display: inline-block;
-  font-family: 'basic-sans', 'Droid Sans', sans-serif;
-}*/
 
 .card__content__listing h4, .card__content__listing p {
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
@@ -332,10 +316,6 @@ nav ul li a:hover,  nav ul li a:active {
   background-size: contain;
   min-height: 30em;
 }
-
-/*.card--voice .card__content__button {
-  background-color: rgba(73,163,206,0.25);
-}*/
 
 .card--voice .card__feature__content {
   color: #e4e4e4;
