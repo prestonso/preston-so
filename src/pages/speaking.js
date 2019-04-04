@@ -65,7 +65,7 @@ export const query = graphql`
       edges {
         node {
           id
-        	date:field_date
+          date:field_date
           link:field_link {
             uri
           }
