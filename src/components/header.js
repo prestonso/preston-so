@@ -6,10 +6,7 @@ import LanguageSelector from "../components/language-selector"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h1 style={{
-      padding: `2rem 1.5rem`,
-      fontFamily: `'basic-sans', 'Droid Sans', sans-serif`,
-    }}>
+    <h1>
       <Link to="/">
         {siteTitle}
       </Link>

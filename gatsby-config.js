@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `http://preston-so-edit.dd:8083/`,
+        baseUrl: `http://live-prestonso.pantheonsite.io/`,
       },
     },
     {
