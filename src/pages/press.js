@@ -8,7 +8,7 @@ import Card from "../components/card"
 
 const PressPage = ({ data }) => (
   <Layout>
-    <SEO title="Press coverage of Preston So" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Press" keywords={[`media`, `press`, `coverage`, `appearances`, `interviews`]} />
     <Card
       type="intro"
       orientation="no"

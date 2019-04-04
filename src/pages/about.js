@@ -7,7 +7,7 @@ import Card from "../components/card"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About Preston So" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About" keywords={[`Preston So`, `prestonso`, `preston.so`, `about`, `bio`, `developer advocate`, `product manager`]} />
     <Card
       type="intro"
       orientation="no"

@@ -8,7 +8,7 @@ import Card from "../components/card"
 
 const SpeakingPage = ({ data }) => (
   <Layout>
-    <SEO title="Speaking by Preston So" />
+    <SEO title="Speaking" keywords={[`speaking`, `lectures`, `keynotes`, `webinars`, `sessions`, `conferences`, `talks`]} />
     <Card
       type="intro"
       orientation="no"
