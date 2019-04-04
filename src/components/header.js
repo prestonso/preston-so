@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import LanguageSelector from "../components/language-selector"
+
 const Header = ({ siteTitle }) => (
   <header>
     <h1 style={{
@@ -22,10 +24,8 @@ const Header = ({ siteTitle }) => (
       </ul>
     </nav>
     <div className="header__language-selector">
-      <p><strong>Decoupled Drupal in Practice</strong>: The comprehensive guide to decoupled Drupal across the stack.</p>
-      <ul>
-        <li><a href="#">Available now on Amazon.com</a></li>
-      </ul>
+      <p><strong>Read preston.so in another language.</strong></p>
+      <LanguageSelector />
     </div>
   </header>
 )
