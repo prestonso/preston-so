@@ -6,16 +6,16 @@ import SEO from "../components/seo"
 
 import Card from "../components/card"
 
-const NotFoundPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Contact Preston So" />
     <Card
       type="intro"
       orientation="no"
-      title="404"
-      body={<p>Not found. <Link to="/">Back to preston.so</Link></p>}
+      title="Contact"
+      body={<p>Under construction. <Link to="/">Back to preston.so</Link></p>}
     />
   </Layout>
 )
 
-export default NotFoundPage
+export default ContactPage
