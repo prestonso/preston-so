@@ -43,6 +43,5 @@ module.exports = {
         name: "markdown-articles",
     },
     `gatsby-transformer-remark`,
-  },
   ],
 }
