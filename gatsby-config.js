@@ -41,6 +41,7 @@ module.exports = {
       options: {
         path: `${__dirname}/articles`,
         name: "markdown-articles",
+      },
     },
     `gatsby-transformer-remark`,
   ],
