@@ -36,5 +36,12 @@ module.exports = {
         baseUrl: `http://live-prestonso.pantheonsite.io/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/articles`,
+        name: "markdown-articles",
+    },
+  },
   ],
 }
