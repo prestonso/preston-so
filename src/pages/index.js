@@ -52,22 +52,22 @@ const IndexPage = () => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://events.drupal.org/seattle2019/sessions/secrets-decoupled-drupal-practitioner" target="_blank" rel="noopener noreferrer">Secrets of the decoupled Drupal practitioner</a></h4>
-              <p>DrupalCon Seattle 2019</p>
-              <p>Seattle</p>
+              <h4><a href="https://cluj2019.drupaldays.org/the-third-wave-of-cms" target="_blank" rel="noopener noreferrer">The third wave of the content management system</a></h4>
+              <p>Drupal Developer Days Cluj-Napoca 2019</p>
+              <p>Cluj-Napoca</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
+              <h4><a href="https://events.drupal.org/seattle2019/sessions/secrets-decoupled-drupal-practitioner" target="_blank" rel="noopener noreferrer">Secrets of the decoupled Drupal practitioner</a></h4>
+              <p>DrupalCon Seattle 2019</p>
+              <p>Seattle</p>
+            </li>
+            <li>
               <h4><a href="https://drupalcamp.london/node/194" target="_blank" rel="noopener noreferrer">Decontextualize your content</a></h4>
               <p>DrupalCamp London 2019</p>
               <p>London</p>
-            </li>
-            <li>
-              <h4><a href="https://drupalcamp.be/en/drupalcamp-ghent-2018/session/keynote-preston-so" target="_blank" rel="noopener noreferrer">The Drupal front end in 2024</a></h4>
-              <p>DrupalCamp Belgium 2018</p>
-              <p>Ghent</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
