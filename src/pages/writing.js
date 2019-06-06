@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Card from "../components/card"
-import Article from "../components/article"
+import ArticleTeaser from "../components/article-teaser"
 
 const WritingPage = ({ data }) => (
   <Layout>
@@ -14,20 +14,20 @@ const WritingPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Writing"
-      body={<p>Coming soon. <Link to="/">Back to preston.so</Link></p>}
+      body={<p>Articles about topics including <strong>Gatsby</strong>, <strong>decoupled Drupal</strong>, <strong>the JAMstack</strong>, and <strong>the future of content management</strong>.</p>}
     />
     <Card
       type="main"
       orientation="no"
       title="Articles"
       body={
-        <>
-          {data.allContentfulArticle.edges.map(({ node }) => (
-            <div>
-              <Article article={node} />
-            </div>
-          ))}
-        </>
+        <div className="card__content__listing">
+          <ul>
+            {data.allContentfulArticle.edges.map(({ node }) => (
+              <ArticleTeaser article={node} />
+            ))}
+          </ul>
+        </div>
       }
     />
   </Layout>
@@ -40,7 +40,10 @@ export const query = graphql`
         node {
           title
           slug
-          originalPublicationDate(formatString: "MMMM Do, YYYY")
+          originalPublicationDate(formatString: "MMMM D, YYYY")
+          body {
+            json
+          }
         }
       }
     }
