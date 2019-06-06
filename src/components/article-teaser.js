@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
-
 export default ({ article }) => (
   <li key={article.id}>
     <h4>

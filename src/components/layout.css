@@ -38,6 +38,10 @@ p, ul, ol {
   margin: 0;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 /**
  * Header
  */
@@ -325,12 +329,17 @@ nav ul li a:hover,  nav ul li a:active {
   color: #21648b;
 }
 
-.card--main .card__content h2 {
+.card--main .card__content h2,
+.card--main .card__content h3 {
   text-transform: uppercase;
-  font: bold 0.9em 'basic-sans', 'Droid Sans', sans-serif;
+  font: bold 1.15em 'basic-sans', 'Droid Sans', sans-serif;
   color: #000;
   letter-spacing: 0.15em;
   margin: 2rem 0 1rem;
+}
+
+.card--main .card__content h3 {
+  font-size: 0.9em;
 }
 
 .card--main .card__content p {
