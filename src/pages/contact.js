@@ -16,7 +16,7 @@ const ContactPage = () => (
       body={
         <form
           method="post"
-          action="#"
+          action="/contact-success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
