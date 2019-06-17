@@ -14,7 +14,14 @@ const ContactPage = () => (
       orientation="no"
       title="Contact"
       body={
-        <form method="post" action="#">
+        <form
+          method="post"
+          action="#"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <div className="card__field">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
