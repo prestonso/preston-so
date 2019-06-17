@@ -13,7 +13,30 @@ const ContactPage = () => (
       type="intro"
       orientation="no"
       title="Contact"
-      body={<p>Coming soon. <Link to="/">Back to preston.so</Link></p>}
+      body={
+        <form method="post" action="#">
+          <div className="card__field">
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div className="card__field">
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div className="card__field">
+            <label htmlFor="message">Message</label>
+            <textarea name="message" id="message" rows="6" />
+          </div>
+          <ul className="card__actions">
+            <li>
+              <input type="submit" value="Send message" className="card__field--special" />
+            </li>
+            <li>
+              <input type="reset" value="Clear" />
+            </li>
+          </ul>
+        </form>
+      }
     />
   </Layout>
 )
