@@ -42,11 +42,29 @@ img {
   max-width: 100%;
 }
 
-code {
+pre {
+  display: inline;
+  line-height: 1em;
+}
+
+pre code {
+  display: inline;
   padding: 0 0.5rem;
   line-height: 1em;
   background-color: #eee;
   border-radius: 0.25em;
+}
+
+p > pre:only-child code {
+  display: block;
+  line-height: 1.5em;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+hr {
+  border: 1px solid #ccc;
 }
 
 .underline {
