@@ -14,6 +14,7 @@ const Italic = ({ children }) => <em>{children}</em>
 const Underline = ({ children }) => <span className="underline">{children}</span>
 const Heading1 = ({ children }) => <h2>{children}</h2>
 const Heading2 = ({ children }) => <h3>{children}</h3>
+const CodeBlock = ({ children }) => <pre><code>{children}</code></pre>
 
 const options = {
   renderMark: {
@@ -24,6 +25,7 @@ const options = {
   renderNode: {
     [BLOCKS.HEADING_1]: (node, children) => <Heading1>{children}</Heading1>,
     [BLOCKS.HEADING_2]: (node, children) => <Heading2>{children}</Heading2>,
+    [BLOCKS.CODE]: (node, children) => <CodeBlock>{children}</CodeBlock>,
     [BLOCKS.EMBEDDED_ASSET]: (node) => {
       console.log(node.data)
       const { title, description, file } = node.data.target.fields
