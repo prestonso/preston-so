@@ -13,6 +13,12 @@ const ContactPage = () => (
       type="intro"
       orientation="no"
       title="Contact"
+      body={<p>Interested in hiring me for a <strong>talk</strong>, <strong>webinar</strong>, <strong>workshop</strong>, or <strong>writing</strong>? Please contact me through the form below.</p>}
+    />
+    <Card
+      type="main"
+      orientation="no"
+      title="Contact Preston So"
       body={
         <form
           method="post"
@@ -42,6 +48,9 @@ const ContactPage = () => (
               <input type="reset" value="Clear" />
             </li>
           </ul>
+          <p>
+            <Link to="/">Go back home</Link>
+          </p>
         </form>
       }
     />

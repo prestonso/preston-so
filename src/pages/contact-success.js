@@ -13,7 +13,7 @@ const ContactSuccessPage = () => (
       type="intro"
       orientation="no"
       title="Contact"
-      body={<p>Thank you for your message! I'll be in touch soon.</p>}
+      body={<p>Thank you for your message! I'll be in touch soon. <Link to="/">Go back home</Link></p>}
     />
   </Layout>
 )

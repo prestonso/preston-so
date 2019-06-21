@@ -38,6 +38,40 @@ p, ul, ol {
   margin: 0;
 }
 
+form label {
+  display: block;
+}
+
+form input[type="text"] {
+  width: 100%;
+  font-size: 1.25em;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+
+}
+
+form textarea {
+  width: 100%;
+  font-size: 1.25em;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+}
+
+form ul {
+  padding: 1rem 0;
+}
+
+form ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  font-size: 1em;
+  margin-right: 0.5rem;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -484,7 +518,7 @@ footer h3 {
   img {
     width: 100%;
   }
-  
+
 }
 
 @media all and (min-width: 67em) {
