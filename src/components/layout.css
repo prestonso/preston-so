@@ -38,6 +38,10 @@ p, ul, ol {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -484,7 +488,7 @@ footer h3 {
   img {
     width: 100%;
   }
-  
+
 }
 
 @media all and (min-width: 67em) {
