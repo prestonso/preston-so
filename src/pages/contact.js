@@ -21,6 +21,7 @@ const ContactPage = () => (
       title="Contact Preston So"
       body={
         <form
+          name="contact"
           method="post"
           action="/contact-success"
           data-netlify="true"
