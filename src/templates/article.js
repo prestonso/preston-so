@@ -25,30 +25,8 @@ const options = {
   },
   renderNode: {
     [BLOCKS.HEADING_1]: (node, children) => <Heading1>{children}</Heading1>,
-    [BLOCKS.HEADING_2]: (node, children) => <Heading2>{children}</Heading2>,
-    [BLOCKS.EMBEDDED_ASSET]: (node) => {
-      const { title, description, file } = node.data.target.fields
-      const mimeType = file['en-US'].contentType
-      const mimeGroup = mimeType.split('/')[0]
-
-      switch (mimeGroup) {
-        case 'image':
-          return <img
-            title={ title ? title['en-US'] : null }
-            alt={ description ?  description['en-US'] : null }
-            src={ file['en-US'].url }
-          />
-        case 'application':
-          return <a
-            alt={ description ?  description['en-US'] : null }
-            href={ file['en-US'].url }
-            >{ title ? title['en-US'] : file['en-US'].details.fileName }
-          </a>
-        default:
-          return <span style={{backgroundColor: 'red', color: 'white'}}> {mimeType} embedded asset </span>
-      }
-    },
-  },
+    [BLOCKS.HEADING_2]: (node, children) => <Heading2>{children}</Heading2>
+  }
 }
 
 class ArticleTemplate extends React.Component {
