@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "preston-so",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Preston So's personal site built in Gatsby",
+  "version": "1.0.0",
+  "author": "Preston So <pso@post.harvard.edu>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.2.0",
     "gatsby": "^2.3.5",
