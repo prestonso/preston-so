@@ -52,40 +52,40 @@ const IndexPage = () => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://cluj2019.drupaldays.org/the-third-wave-of-cms" target="_blank" rel="noopener noreferrer">The third wave of the content management system</a></h4>
-              <p>Drupal Developer Days Cluj-Napoca 2019</p>
-              <p>Cluj-Napoca</p>
+              <h4><a href="https://reactconf.com.br/" target="_blank" rel="noopener noreferrer">Gatsby hoje em dia e no futuro</a></h4>
+              <p>ReactConf Brazil 2019</p>
+              <p>São Paulo</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
-              <h4><a href="https://events.drupal.org/seattle2019/sessions/secrets-decoupled-drupal-practitioner" target="_blank" rel="noopener noreferrer">Secrets of the decoupled Drupal practitioner</a></h4>
-              <p>DrupalCon Seattle 2019</p>
-              <p>Seattle</p>
+              <h4><a href="https://www.gatsbyjs.com/resources/gatsby-days/" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
+              <p>Gatsby Days London 2019</p>
+              <p>London</p>
             </li>
             <li>
-              <h4><a href="https://drupalcamp.london/node/194" target="_blank" rel="noopener noreferrer">Decontextualize your content</a></h4>
-              <p>DrupalCamp London 2019</p>
-              <p>London</p>
+              <h4><a href="https://www.cascadiaphp.com/schedule" target="_blank" rel="noopener noreferrer">Blazing fast websites with Gatsby and Drupal</a></h4>
+              <p>Cascadia PHP Portland 2019</p>
+              <p>Portland</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
           <ul>
             <li>
-              <h4><a href="https://drupal-meetup-den.connpass.com/event/100818/" target="_blank" rel="noopener noreferrer">The future of experiences and Drupal</a></h4>
-              <p>DrupalCamp Japan 2018</p>
-              <p>Tokyo</p>
+              <h4><a href="http://camp2019.drupalpune.com/schedule" target="_blank" rel="noopener noreferrer">The distributed CMS: From system to stack</a></h4>
+              <p>DrupalCamp Pune 2019</p>
+              <p>Pune</p>
             </li>
             <li>
-              <h4><a href="https://www.drupalcampatlanta.com/2018/sessions/innovation-about-more-just-code" target="_blank" rel="noopener noreferrer">Innovation is about more than just code</a></h4>
-              <p>DrupalCamp Atlanta 2018</p>
-              <p>Atlanta</p>
+              <h4><a href="https://drupalnorth.org/en/decoupled-drupal-summit" target="_blank" rel="noopener noreferrer">The fourth wave of the content management system</a></h4>
+              <p>Drupal North Decoupled Summit 2019</p>
+              <p>Montréal</p>
             </li>
             <li>
-              <h4><a href="https://2018.drupalcampcolorado.org/sessions/keynote-preston-so-do-ocracy-dilemma-and-compassionate-contribution" target="_blank" rel="noopener noreferrer">The do-ocracy dilemma and compassionate contribution</a></h4>
-              <p>DrupalCamp Colorado 2018</p>
-              <p>Denver</p>
+              <h4><a href="https://cluj2019.drupaldays.org/keynote-the-fourth-wave-of-the-content-management-system" target="_blank" rel="noopener noreferrer">The fourth wave of the content management system</a></h4>
+              <p>Drupal Dev Days Cluj-Napoca 2019</p>
+              <p>Cluj-Napoca</p>
             </li>
           </ul>
           <p><small>Photo credit: <a href="https://twitter.com/c_leverington" target="_blank" rel="noopener noreferrer">Charles Leverington</a></small></p>
