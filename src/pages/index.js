@@ -52,22 +52,22 @@ const IndexPage = () => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://reactconf.com.br/" target="_blank" rel="noopener noreferrer">Gatsby hoje em dia e no futuro</a></h4>
-              <p>ReactConf Brazil 2019</p>
-              <p>São Paulo</p>
+              <h4><a href="https://drupal.kuoni-congress.info/2019/program/abstract/368" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
+              <p>DrupalCon Amsterdam 2019</p>
+              <p>Amsterdam</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
+              <h4><a href="https://reactconf.com.br/" target="_blank" rel="noopener noreferrer">Gatsby hoje em dia e no futuro</a></h4>
+              <p>ReactConf Brazil 2019</p>
+              <p>São Paulo</p>
+            </li>
+            <li>
               <h4><a href="https://www.gatsbyjs.com/resources/gatsby-days/" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
               <p>Gatsby Days London 2019</p>
               <p>London</p>
-            </li>
-            <li>
-              <h4><a href="https://www.cascadiaphp.com/schedule" target="_blank" rel="noopener noreferrer">Blazing fast websites with Gatsby and Drupal</a></h4>
-              <p>Cascadia PHP Portland 2019</p>
-              <p>Portland</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
