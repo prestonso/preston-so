@@ -73,6 +73,11 @@ const IndexPage = () => (
           <h3>Recent keynotes</h3>
           <ul>
             <li>
+              <h4><a href="https://secosday.eu/keynote/the-future-of-security-in-the-decoupled-cms-landscape-by-preston-so" target="_blank" rel="noopener noreferrer">The future of security in the decoupled CMS landscape</a></h4>
+              <p>SecOS Days Sofia 2019</p>
+              <p>Sofia</p>
+            </li>
+            <li>
               <h4><a href="http://camp2019.drupalpune.com/schedule" target="_blank" rel="noopener noreferrer">The distributed CMS: From system to stack</a></h4>
               <p>DrupalCamp Pune 2019</p>
               <p>Pune</p>
@@ -81,11 +86,6 @@ const IndexPage = () => (
               <h4><a href="https://drupalnorth.org/en/decoupled-drupal-summit" target="_blank" rel="noopener noreferrer">The fourth wave of the content management system</a></h4>
               <p>Drupal North Decoupled Summit 2019</p>
               <p>Montréal</p>
-            </li>
-            <li>
-              <h4><a href="https://cluj2019.drupaldays.org/keynote-the-fourth-wave-of-the-content-management-system" target="_blank" rel="noopener noreferrer">The fourth wave of the content management system</a></h4>
-              <p>Drupal Dev Days Cluj-Napoca 2019</p>
-              <p>Cluj-Napoca</p>
             </li>
           </ul>
           <p><small>Photo credit: <a href="https://twitter.com/c_leverington" target="_blank" rel="noopener noreferrer">Charles Leverington</a></small></p>
