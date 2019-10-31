@@ -2,7 +2,7 @@
   "name": "preston-so",
   "private": true,
   "description": "Preston So's personal site built in Gatsby",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Preston So <pso@post.harvard.edu>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.2.0",
