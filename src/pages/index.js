@@ -13,7 +13,7 @@ const IndexPage = () => (
       type="intro"
       orientation="no"
       title="Hi! I'm Preston."
-      body={<p>I work, speak, and write on topics like <strong>digital experiences</strong>, <strong>headless CMS</strong>, <strong>the decentralized web</strong>, <strong>conversational design</strong>, and <strong>the future of content</strong>.</p>}
+      body={<p>I work, speak, and write on topics like <strong>digital experiences</strong>, <strong>decoupled CMS</strong>, <strong>the decentralized web</strong>, <strong>conversational design</strong>, and <strong>the future of content</strong>.</p>}
     />
     <Card
       type="voice"
@@ -46,7 +46,7 @@ const IndexPage = () => (
       type="speaking"
       orientation="left"
       title="I talk shop worldwide."
-      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> on four continents. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
+      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> on five continents. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
       listing={
         <>
           <h3>Upcoming</h3>
