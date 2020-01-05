@@ -52,40 +52,40 @@ const IndexPage = () => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://drupal.kuoni-congress.info/2019/program/abstract/368" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
-              <p>DrupalCon Amsterdam 2019</p>
-              <p>Amsterdam</p>
+              <h4><a href="https://drupaljam.nl/" target="_blank" rel="noopener noreferrer">DrupalJam 2020 untitled keynote</a></h4>
+              <p>DrupalJam 2020</p>
+              <p>Utrecht</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
+              <h4><a href="https://drupal.kuoni-congress.info/2019/program/abstract/368" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
+              <p>DrupalCon Amsterdam 2019</p>
+              <p>Amsterdam</p>
+            </li>
+            <li>
               <h4><a href="https://reactconf.com.br/" target="_blank" rel="noopener noreferrer">Gatsby hoje em dia e no futuro</a></h4>
               <p>ReactConf Brazil 2019</p>
               <p>São Paulo</p>
-            </li>
-            <li>
-              <h4><a href="https://www.gatsbyjs.com/resources/gatsby-days/" target="_blank" rel="noopener noreferrer">Live preview with Gatsby and decoupled Drupal</a></h4>
-              <p>Gatsby Days London 2019</p>
-              <p>London</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
           <ul>
             <li>
+              <h4><a href="https://events.apifirstcms.org/sessions/opening-of-keynote" target="_blank" rel="noopener noreferrer">The new CMS paradox</a></h4>
+              <p>API-first DrupalCamp Tokyo 2019</p>
+              <p>Tokyo</p>
+            </li>
+            <li>
+              <h4><a href="https://drupal-camp2019.den-japan.org/" target="_blank" rel="noopener noreferrer">The new CMS paradox</a></h4>
+              <p>DENCamp Japan 2019</p>
+              <p>Nagoya</p>
+            </li>
+            <li>
               <h4><a href="https://secosday.eu/keynote/the-future-of-security-in-the-decoupled-cms-landscape-by-preston-so" target="_blank" rel="noopener noreferrer">The future of security in the decoupled CMS landscape</a></h4>
               <p>SecOS Days Sofia 2019</p>
               <p>Sofia</p>
-            </li>
-            <li>
-              <h4><a href="http://camp2019.drupalpune.com/schedule" target="_blank" rel="noopener noreferrer">The distributed CMS: From system to stack</a></h4>
-              <p>DrupalCamp Pune 2019</p>
-              <p>Pune</p>
-            </li>
-            <li>
-              <h4><a href="https://drupalnorth.org/en/decoupled-drupal-summit" target="_blank" rel="noopener noreferrer">The fourth wave of the content management system</a></h4>
-              <p>Drupal North Decoupled Summit 2019</p>
-              <p>Montréal</p>
             </li>
           </ul>
           <p><small>Photo credit: <a href="https://twitter.com/c_leverington" target="_blank" rel="noopener noreferrer">Charles Leverington</a></small></p>
