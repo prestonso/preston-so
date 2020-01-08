@@ -31,9 +31,9 @@ const AboutPage = () => (
           <p>"A must-have guide to decoupling Drupal ... When you finish reading, I think you will agree that decoupled Drupal is an essential element of the bright future in front of Drupal."<br />
           —<em><a href="https://dri.es" target="_blank" rel="noopener noreferrer">Dries Buytaert</a>, Drupal project lead and Acquia founder</em></p>
           <p>"This is a really great book. I've been reading blog posts by Preston, hearing him present, and asking him questions on decoupled every chance I can get and I'm so glad to have those thoughts in a physical form I can read through and consult whenever I have questions."<br />
-          —<em><a href="https://twitter.com/greggles" target="_blank" rel="noopener noreferrer">Greg Knaddison</a>, Drupal Security Team member</em></p>
+          —<em><a href="https://knaddison.com" target="_blank" rel="noopener noreferrer">Greg Knaddison</a>, Drupal Security Team member</em></p>
           <p>"I believe I have found my guide by picking up the book <em>Decoupled Drupal in Practice</em> ... I found Preston’s back-to-basics approach to be very helpful and it provided the context I needed. It allowed me to look at past projects and recognize how they were the beginnings of progressive decoupling. As I move further along in the book, I’m feeling more confident and finding my place in the decoupled conversation."<br />
-          —<em><a href="https://twitter.com/andrewozone" target="_blank" rel="noopener noreferrer">Andy Olson</a>, Senior Front-End Developer at <a href="https://www.bounteous.com/insights/2019/02/18/exploring-decoupled-drupal-through-eyes-front-end-themer/" target="_blank" rel="noopener noreferrer">Bounteous</a></em></p>
+          —<em><a href="https://ozonedesign.com" target="_blank" rel="noopener noreferrer">Andy Olson</a>, Senior Front-End Developer at <a href="https://www.bounteous.com/insights/2019/02/18/exploring-decoupled-drupal-through-eyes-front-end-themer/" target="_blank" rel="noopener noreferrer">Bounteous</a></em></p>
           <p>"Covers pretty much everything you want to know about decoupled Drupal right now."<br />
           —<em><a href="https://nickgs.com" target="_blank" rel="noopener noreferrer">Nick Selvaggio</a>, Director of IT at American Diagnostic</em></p>
         </>
