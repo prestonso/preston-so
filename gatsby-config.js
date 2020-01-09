@@ -60,6 +60,14 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: contentfulConfig,
-    }
+    },
+    {
+      resolve: `gatsby-source-cec`,
+      options: {
+        contentServer: `https://prestonso-prestonso.cec.ocp.oraclecloud.com/`,
+        channelToken: `25145a1e06a646d0bc58ce0b721aed74`,
+        fromCache: false,
+      },
+    },
   ],
 }
