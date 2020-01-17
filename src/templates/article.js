@@ -27,7 +27,6 @@ const options = {
     [BLOCKS.HEADING_1]: (node, children) => <Heading1>{children}</Heading1>,
     [BLOCKS.HEADING_2]: (node, children) => <Heading2>{children}</Heading2>,
     [BLOCKS.EMBEDDED_ASSET]: (node) => {
-      console.log(node.data)
       const { title, description, file } = node.data.target.fields
       const mimeType = file['en-US'].contentType
       const mimeGroup = mimeType.split('/')[0]
