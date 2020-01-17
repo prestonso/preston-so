@@ -27,6 +27,7 @@ const options = {
     [BLOCKS.HEADING_1]: (node, children) => <Heading1>{children}</Heading1>,
     [BLOCKS.HEADING_2]: (node, children) => <Heading2>{children}</Heading2>,
     [BLOCKS.EMBEDDED_ASSET]: (node) => {
+      console.log(node.data)
       const { title, description, file } = node.data.target.fields
       const mimeType = file['en-US'].contentType
       const mimeGroup = mimeType.split('/')[0]
@@ -38,14 +39,14 @@ const options = {
             alt={ description ?  description['en-US'] : null }
             src={ file['en-US'].url }
           />
-      case 'application':
-        return <a
-          alt={ description ?  description['en-US'] : null }
-          href={ file['en-US'].url }
-          >{ title ? title['en-US'] : file['en-US'].details.fileName }
-        </a>
-      default:
-        return <span style={{backgroundColor: 'red', color: 'white'}}>{mimeType} embedded asset</span>
+        case 'application':
+          return <a
+            alt={ description ?  description['en-US'] : null }
+            href={ file['en-US'].url }
+            >{ title ? title['en-US'] : file['en-US'].details.fileName }
+          </a>
+        default:
+          return <span style={{backgroundColor: 'red', color: 'white'}}>{mimeType} embedded asset</span>
       }
     },
   },
