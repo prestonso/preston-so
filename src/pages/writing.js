@@ -13,7 +13,7 @@ const WritingPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Writing"
-      body={<p>Articles about topics including <strong>headless CMS</strong>, <strong>the JAMstack</strong>, <strong>conversational design</strong>, <strong>decoupled Drupal</strong>, and <strong>the future of content management</strong>.</p>}
+      body={<p>Articles about topics including <strong>headless CMS</strong>, <strong>the JAMstack</strong>, <strong>conversational design</strong>, <strong>decoupled Drupal</strong>, and <strong>the future of content</strong>.</p>}
     />
     <Card
       type="main"
