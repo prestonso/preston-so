@@ -22,7 +22,7 @@ const PressPage = ({ data }) => (
       body={
         <div className="card__content__listing">
           <ul>
-            {data.allAppearance.edges.map(( {node }) => (
+            {data.allPrestonSoAppearance.edges.map(( {node }) => (
               <li key={node.id}>
                 <h4><a href={node.link} title={node.title}>{node.title}</a></h4>
                 {node.author && <p>{node.author}</p>}
