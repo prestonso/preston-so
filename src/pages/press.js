@@ -39,7 +39,7 @@ const PressPage = ({ data }) => (
 
 export const query = graphql`
   query {
-    allAppearance(
+    allPrestonSoAppearance(
       sort: { fields: date, order: DESC }
     ) {
       edges {
