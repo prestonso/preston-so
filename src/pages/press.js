@@ -48,7 +48,7 @@ export const query = graphql`
           title
           publication
           author
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "MMMM D, YYYY")
           link
         }
       }
