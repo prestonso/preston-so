@@ -94,10 +94,19 @@ form ul li {
   list-style: none;
 }
 
+form input[type="checkbox"],
+form label[for="newsletter"] {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
 form input[type="submit"],
 form input[type="reset"] {
-  font-size: 1em;
+  font-size: 0.75em;
   margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .underline {

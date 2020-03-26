@@ -41,6 +41,10 @@ const ContactPage = () => (
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="6" />
           </div>
+          <div className="card__field">
+            <input type="checkbox" id="newsletter" name="newsletter" checked />
+            <label for="newsletter">Subscribe to preston.soapbox, my monthly newsletter. No spam, just musings.</label>
+          </div>
           <ul className="card__actions">
             <li>
               <input type="submit" value="Send message" className="card__field--special" />
