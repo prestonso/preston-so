@@ -369,6 +369,16 @@ nav ul li a:hover,  nav ul li a:active {
   color: #000;
 }
 
+.card--outro .card__field {
+  margin-top: 1rem;
+}
+
+.card--outro .card__field label {
+  text-transform: uppercase;
+  font: bold 0.85em 'basic-sans', 'Droid Sans', sans-serif;
+  color: #232323;
+}
+
 .card--voice,
 .card--main {
   background: #e4e4e4 url('../images/card-labs.png') repeat fixed;
