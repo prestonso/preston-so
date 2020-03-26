@@ -13,7 +13,7 @@ const Footer = () => (
       title="preston.soapbox"
       body={
         <>
-          <p><strong>Before you go, subscribe to my monthly newsletter.</strong> No spam. Just musings about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>
+          <p><strong>Before you go, subscribe to my monthly newsletter.</strong> No spam. Just musings and exclusive subscriber-only content about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>
           <form
             name="newsletter"
             method="post"
@@ -28,7 +28,7 @@ const Footer = () => (
               <input type="text" name="firstname" id="firstname-newsletter" />
             </div>
             <div className="card__field">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">E-mail</label>
               <input type="text" name="email" id="email" />
             </div>
             <input type="submit" value="Subscribe" className="card__field--special" />

@@ -102,7 +102,7 @@ form label[for="newsletter"] {
 
 form input[type="submit"],
 form input[type="reset"] {
-  font-size: 0.75em;
+  font-size: 0.7em;
   margin-right: 0.5rem;
   padding: 0.5rem 1rem;
   font-weight: bold;
@@ -384,7 +384,7 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card--outro .card__field label {
   text-transform: uppercase;
-  font: bold 0.85em 'basic-sans', 'Droid Sans', sans-serif;
+  font: 0.85em 'basic-sans', 'Droid Sans', sans-serif;
   color: #232323;
 }
 
@@ -712,6 +712,16 @@ footer h3 {
   .card--intro {
     font-size: 1.8em;
     margin: 0 auto;
+  }
+
+  .card--outro form .card__field {
+    width: 41%;
+    float: left;
+    padding-right: 1rem;
+  }
+
+  .card--outro form input[type="submit"] {
+    margin-top: 2.5rem;
   }
 
   .card--main {

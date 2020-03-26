@@ -38,7 +38,7 @@ const ContactPage = () => (
             <input type="text" name="lastname" id="lastname" />
           </div>
           <div className="card__field">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">E-mail</label>
             <input type="text" name="email" id="email" />
           </div>
           <div className="card__field">
