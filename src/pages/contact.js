@@ -30,8 +30,12 @@ const ContactPage = () => (
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <div className="card__field">
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <label htmlFor="name">First name</label>
+            <input type="text" name="firstname" id="firstname-contact" />
+          </div>
+          <div className="card__field">
+            <label htmlFor="name">Last name</label>
+            <input type="text" name="lastname" id="lastname" />
           </div>
           <div className="card__field">
             <label htmlFor="email">Email</label>
