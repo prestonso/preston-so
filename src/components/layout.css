@@ -341,26 +341,31 @@ nav ul li a:hover,  nav ul li a:active {
 /**
  * Card-specific styles
  */
-.card--intro {
+.card--intro,
+.card--outro {
   background: #232323 url('../images/card-intro.png') repeat fixed;
   font-size: 1.25em;
   line-height: 1.5em;
 }
 
-.card--intro .card__content {
+.card--intro .card__content,
+.card--outro .card__content {
   background-color: transparent;
   border: 0;
 }
 
-.card--intro .card__content h2 {
+.card--intro .card__content h2,
+.card--outro .card__content h2 {
   color: #fff;
 }
 
-.card--intro .card__content p {
+.card--intro .card__content p,
+.card--outro .card__content p {
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
 }
 
-.card--intro .card__content strong {
+.card--intro .card__content strong,
+.card--outro .card__content strong {
   color: #000;
 }
 
