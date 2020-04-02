@@ -10,10 +10,10 @@ const Footer = () => (
     <Card
       type="outro"
       orientation="no"
-      title="preston.soapbox"
+      title="Before you go ..."
       body={
         <>
-          <p><strong>Before you go, subscribe to my monthly newsletter.</strong> No spam. Just musings and exclusive subscriber-only content about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>
+          <p><strong>Subscribe to my monthly newsletter.</strong> No spam. Just musings and exclusive subscriber-only content about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>
           <form
             name="newsletter"
             method="post"
@@ -24,8 +24,8 @@ const Footer = () => (
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="newsletter" />
             <div className="card__field">
-              <label htmlFor="email">First name</label>
-              <input type="text" name="firstname" id="firstname-newsletter" />
+              <label htmlFor="email">Preferred name</label>
+              <input type="text" name="preferredname" id="preferredname-newsletter" />
             </div>
             <div className="card__field">
               <label htmlFor="email">E-mail</label>

@@ -29,8 +29,8 @@ const NewsletterPage = ({ data }) => (
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="newsletter" />
           <div className="card__field">
-            <label htmlFor="email">First name</label>
-            <input type="text" name="firstname" id="firstname-newsletter" />
+            <label htmlFor="email">Preferred name</label>
+            <input type="text" name="preferredname" id="preferredname-newsletter" />
           </div>
           <div className="card__field">
             <label htmlFor="email">E-mail</label>
