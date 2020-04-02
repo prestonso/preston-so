@@ -14,6 +14,7 @@ const Header = ({ siteTitle }) => (
         <li><Link to="/writing/" activeClassName="active">Writing</Link></li>
         <li><Link to="/speaking/" activeClassName="active">Speaking</Link></li>
         <li><Link to="/press/" activeClassName="active">Press</Link></li>
+        <li><Link to="/newsletter/" activeClassName="active">Newsletter</Link></li>
         <li><Link to="/about/" activeClassName="active">About</Link></li>
         <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
       </ul>
