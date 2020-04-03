@@ -10,7 +10,7 @@ const Footer = (props) => (
   <>
     <Location>
       {({ location }) => {
-        if (['/contact/', '/contact-success/', '/newsletter/', '/newsletter-success/'].includes(location.pathname)) {
+        if (!['/contact/', '/contact-success', '/newsletter/', '/newsletter-success'].includes(location.pathname)) {
           return <Card
             type="outro"
             orientation="no"
