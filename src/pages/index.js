@@ -52,9 +52,9 @@ const IndexPage = () => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://drupaljam.nl/" target="_blank" rel="noopener noreferrer">DrupalJam 2020 untitled keynote</a></h4>
-              <p>DrupalJam 2020</p>
-              <p>Utrecht</p>
+              <h4><a href="https://2020.drupalmanila.org/session/keynote" target="_blank" rel="noopener noreferrer">A new grand compromise for content management</a></h4>
+              <p>DrupalCamp Manila 2020</p>
+              <p>Virtual</p>
             </li>
           </ul>
           <h3>Latest</h3>
