@@ -61,7 +61,7 @@ const IndexPage = () => (
           <ul>
             <li>
               <h4><a href="https://thedevconf.com/tdc/2020/recifeonline/trilha-stadium-quarta" target="_blank" rel="noopener noreferrer">O CMS distribuído e o futuro do gerenciamento de conteúdo</a></h4>
-              <p>The Developer Conference Recife 2020</p>
+              <p>TDC Recife 2020</p>
               <p>Virtual</p>
             </li>
             <li>
