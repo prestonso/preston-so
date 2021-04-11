@@ -36,7 +36,7 @@ const IndexPage = () => (
     <Card
       type="writing"
       orientation="right"
-      title="I write books & blogs."
+      title="I write books & more."
       body={<p>I wrote <a href="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1" target="_blank" rel="noopener noreferrer">the book on decoupled Drupal</a>, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noopener noreferrer">Dries Buytaert</a>, who called it “a must-have guide.” I’ve also written for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>, and <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>.</p>}
       featureLink="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
@@ -51,6 +51,12 @@ const IndexPage = () => (
         <>
           <h3>Upcoming</h3>
           <ul>
+            <li>
+              <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
+              <p>(with Nani Jensen Reventlow)</p>
+              <p>DrupalCon North America 2021</p>
+              <p>Virtual</p>
+            </li>
             <li>
               <h4><a href="https://omnichannelx.digital/session/how-to-make-the-move-to-headless-cms-and-true-omnichannel/" target="_blank" rel="noopener noreferrer">How to make the move to headless CMS and true omnichannel</a></h4>
               <p>OmnichannelX 2021</p>
@@ -81,11 +87,6 @@ const IndexPage = () => (
               <h4><a href="https://events.apifirstcms.org/sessions/opening-of-keynote" target="_blank" rel="noopener noreferrer">The new CMS paradox</a></h4>
               <p>API-first DrupalCamp Tokyo 2019</p>
               <p>Tokyo</p>
-            </li>
-            <li>
-              <h4><a href="https://drupal-camp2019.den-japan.org/" target="_blank" rel="noopener noreferrer">The new CMS paradox</a></h4>
-              <p>DENCamp Japan 2019</p>
-              <p>Nagoya</p>
             </li>
           </ul>
           <p><small>Photo credit: <a href="https://twitter.com/c_leverington" target="_blank" rel="noopener noreferrer">Charles Leverington</a></small></p>
