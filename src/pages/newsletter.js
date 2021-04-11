@@ -12,7 +12,7 @@ const NewsletterPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Newsletter"
-      body={<p>No spam. Just monthly musings and exclusive content about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>}
+      body={<p>No spam. Just occasional musings and exclusive content about omnichannel content strategy, the future of digital experiences, conversational design, and more.</p>}
     />
     <Card
       type="main"

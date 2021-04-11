@@ -17,7 +17,7 @@ const Footer = (props) => (
             title="Before you go ..."
             body={
               <>
-                <p><strong>Subscribe to my monthly newsletter.</strong> No spam. Just musings and exclusive subscriber-only content about headless CMS, voice design, digital experiences, the JAMstack, and more.</p>
+                <p><strong>Subscribe to my occasional newsletter.</strong> No spam. Just occasional musings and exclusive content about omnichannel content strategy, the future of digital experiences, conversational design, and more.</p>
                 <form
                   name="newsletter"
                   method="post"
