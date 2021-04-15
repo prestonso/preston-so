@@ -53,7 +53,7 @@ const IndexPage = () => (
           <ul>
             <li>
               <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
-              <p>(with Nani Jensen Reventlow)</p>
+              <p>(with Nani Jansen Reventlow)</p>
               <p>DrupalCon North America 2021</p>
               <p>Virtual</p>
             </li>
