@@ -13,7 +13,7 @@ const IndexPage = () => (
       type="intro"
       orientation="no"
       title="Hi! I'm Preston."
-      body={<p>I write, speak, and work on topics like <strong>omnichannel content strategy</strong>, the <strong>immersive digital experiences</strong>, <strong>the decentralized web</strong>, <strong>conversational design</strong>, and <strong>the future of content</strong>.</p>}
+      body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>conversational design</strong>, and the <strong>future of content strategy</strong>.</p>}
     />
     <Card
       type="voice"
