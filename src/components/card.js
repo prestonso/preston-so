@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+import { Location } from "@reach/router"
 import PropTypes from "prop-types"
 
 import "./layout.css"
@@ -7,6 +9,7 @@ const Card = ({
   type,
   orientation,
   title,
+  titleLink,
   body,
   featureLink,
   featureTitle,
@@ -19,8 +22,16 @@ const Card = ({
     card--${orientation}-orientation`}>
     <div className="card__container">
       <div className="card__content">
+        {type === "intro" &&
+          <Location>
+            {({ location }) => (
+              location.pathname.match(/^(\/writing\/)[a-z0-9]+/) ? (<p><Link to="/writing">Writing</Link></p>) :
+              (location.pathname.match(/^(\/books\/)[a-z0-9]+/) ? (<p><Link to="/books">Books</Link></p>) : "")
+            )}
+          </Location>
+        }
         {title &&
-          <h2>{title}</h2>
+          <h2>{titleLink ? (<Link to={titleLink}>{title}</Link>) : title}</h2>
         }
         {body}
       </div>
@@ -49,6 +60,7 @@ Card.propTypes = {
   type: PropTypes.string,
   orientation: PropTypes.string,
   title: PropTypes.string,
+  titleLink: PropTypes.string,
   body: PropTypes.string,
   featureLink: PropTypes.string,
   featureTitle: PropTypes.string,
