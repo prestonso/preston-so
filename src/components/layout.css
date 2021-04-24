@@ -133,7 +133,6 @@ header ul li.active a, header a.active {
   text-decoration: none;
 }
 
-
 header h1 {
   padding: 2rem 1.5rem;
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
@@ -150,7 +149,7 @@ header h1 a:hover, header h1 a:active {
 header .header__language-selector {
   clear: both;
   padding: 1rem 1.5rem;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255,255,255,0.1);
   zoom: 1;
 }
 
@@ -167,6 +166,10 @@ header .header__language-selector:after {
 header .header__language-selector p {
   color: #e3e3e3;
   padding: 0.4rem 0;
+}
+
+header .header__language-selector p strong {
+  color: #ffd966;
 }
 
 header .header__language-selector ul {
@@ -192,9 +195,13 @@ header .header__language-selector ul li {
 
 header .header__language-selector ul li a {
   display: inline-block;
-  padding: 0.4rem 1rem 0.4rem 0;
-  color: #000;
+  /* padding: 0.4rem 1rem 0.4rem 0; */
+  padding: 0.4rem 1rem;
+  color: #ffd966;
   font-weight: normal;
+  background-color: rgba(0,0,0,0.25);
+  border-radius: 1.5rem;
+  transition: background-color 0.3s;
 }
 
 header .header__language-selector ul li a.header__language-selector__more-link {
@@ -203,7 +210,7 @@ header .header__language-selector ul li a.header__language-selector__more-link {
 
 header .header__language-selector ul li a:hover,
 header .header__language-selector ul li a:active {
-  color: #ffd966;
+  background-color: rgba(0,0,0,0.5);
 }
 
 /**
@@ -221,12 +228,12 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem 1rem 1.5rem;
   text-transform: uppercase;
 }
 
 nav ul li a:hover,  nav ul li a:active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   text-decoration: none;
 }
 
@@ -374,6 +381,15 @@ nav ul li a:hover,  nav ul li a:active {
   color: #000;
 }
 
+.card--intro .card__content a strong,
+.card--outro .card__content a strong {
+  color: #21648b;
+}
+
+.card--intro .card__content p:first-child {
+  margin-bottom: 1rem;
+}
+
 .card--outro .card__field {
   margin-top: 1rem;
 }
@@ -386,7 +402,7 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card--light-blue,
 .card--main {
-  background: #e4e4e4 url('../images/card-labs.png') repeat fixed;
+  background: #e4e4e4 url('../images/card-light-blue.png') repeat fixed;
 }
 
 .card--light-blue h2,
@@ -404,8 +420,17 @@ nav ul li a:hover,  nav ul li a:active {
   min-height: 30em;
 }
 
+.card--light-blue.book .card__feature {
+  background: transparent url('../images/card-books-feature-gatsby.png') no-repeat top left;
+  background-size: contain;
+}
+
 .card--light-blue .card__feature__content {
   color: #e4e4e4;
+}
+
+.card--light-blue.book .card__feature__content {
+  color: #000;
 }
 
 .card--main h2,
@@ -435,20 +460,31 @@ nav ul li a:hover,  nav ul li a:active {
 }
 
 .card--dark-sienna {
-  background: #232323 url('../images/card-languages.png') repeat fixed;
+  background: #232323 url('../images/card-dark-sienna.png') repeat fixed;
 }
 
 .card--dark-sienna h2,
 .card--dark-sienna a {
-  color: rgb(251,140,0);
+  color: rgb(161,43,42);
 }
 
 .card--dark-sienna .card__container {
-  background-color: rgba(251,140,0,0.5);
+  background-color: rgba(161,43,42,0.5);
 }
 
+.card--dark-sienna .card__feature {
+  background: transparent url('../images/card-books-feature-voice-content.png') no-repeat top right;
+  background-size: contain;
+  min-height: 33em;
+}
+
+.card--dark-sienna .card__feature__content a {
+  color: rgb(255,160,160);
+}
+
+
 .card--dark-gold {
-  background: #232323 url('../images/card-work.png') repeat fixed;
+  background: #232323 url('../images/card-dark-gold.png') repeat fixed;
 }
 
 .card--dark-gold h2,
@@ -466,8 +502,12 @@ nav ul li a:hover,  nav ul li a:active {
   min-height: 33em;
 }
 
+.card--dark-gold.book .card__feature {
+  background: transparent url('../images/card-articles-feature-decoupled-drupal.png') no-repeat top right;
+}
+
 .card--light-teal {
-  background: #e4e4e4 url('../images/card-articles.png') repeat fixed;
+  background: #e4e4e4 url('../images/card-light-teal.png') repeat fixed;
 }
 
 .card--light-teal h2,
@@ -491,8 +531,12 @@ nav ul li a:hover,  nav ul li a:active {
   color: #000;
 }
 
+.card--light-teal .card__feature__listing {
+  padding-top: 20rem;
+}
+
 .card--dark-violet {
-  background: #000 url('../images/card-speaking.jpg') no-repeat bottom right;
+  background: #000 url('../images/card-dark-violet.jpg') no-repeat bottom right;
   background-size: contain;
 }
 
@@ -506,7 +550,7 @@ nav ul li a:hover,  nav ul li a:active {
 }
 
 .card--light-navy {
-  background: #e4e4e4 url('../images/card-drupal.png') repeat fixed;
+  background: #e4e4e4 url('../images/card-light-navy.png') repeat fixed;
 }
 
 .card--light-navy h2,
@@ -525,8 +569,7 @@ footer {
   background: #232323 url('../images/header.png') repeat fixed;
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
   color: #e4e4e4;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 4rem;
   text-align: center;
 }
 
@@ -580,6 +623,10 @@ footer h3 {
     width: 100%;
   }
 
+  nav ul li a {
+    padding: 1rem 0.25rem 1rem 1.5rem;
+  }
+
 }
 
 @media all and (min-width: 67em) {
@@ -615,6 +662,12 @@ footer h3 {
   }
 
   .card__content {
+    margin-top: 4rem;
+  }
+
+  .card--intro .card__content,
+  .card--main .card__content,
+  .card--outro .card__content {
     margin-top: -1rem;
   }
 
@@ -685,34 +738,13 @@ footer h3 {
     margin: 0 auto;
     zoom: 1;
   }
-
-  .footer__container:before, .footer__container:after {
-    content: " ";
-    display: table;
-  }
-
-  .footer__container:after {
-    clear: both;
-  }
-
-  .footer__first {
-    width: 50%;
-    float: left;
-  }
-
-  .footer__second {
-    width: 50%;
-    float: right;
-  }
-
-  footer nav ul li {
-    display: block;
-    float: none;
-    text-align: right;
-  }
 }
 
 @media all and (min-width: 80em) {
+
+  nav ul li a {
+    padding: 1rem 1.75rem;
+  }
 
   .card__container {
     width: 1120px;
