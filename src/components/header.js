@@ -11,18 +11,19 @@ const Header = ({ siteTitle }) => (
     </h1>
     <nav className="header__nav">
       <ul>
-        <li><Link to="/writing/" activeClassName="active">Writing</Link></li>
+        <li><Link to="/books/" activeClassName="active" partiallyActive={true}>Books</Link></li>
+        <li><Link to="/writing/" activeClassName="active" partiallyActive={true}>Writing</Link></li>
         <li><Link to="/speaking/" activeClassName="active">Speaking</Link></li>
+        <li><Link to="/work/" activeClassName="active">Work</Link></li>
         <li><Link to="/press/" activeClassName="active">Press</Link></li>
         <li><Link to="/about/" activeClassName="active">About</Link></li>
         <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
-        <li><Link to="/newsletter/" activeClassName="active">Newsletter</Link></li>
       </ul>
     </nav>
     <div className="header__language-selector">
-      <p><strong>Decoupled Drupal in Practice</strong>: The comprehensive guide to decoupled Drupal across the stack.</p>
+      <p><Link to="/books/voice-content"><strong><em>Voice Content and Usability</em></strong></Link> is the first-ever, definitive book on voice content from A Book Apart, coming June 22nd.</p>
       <ul>
-        <li><a href="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1" target="_blank" rel="noopener noreferrer">Available now on Amazon.com</a></li>
+        <li><Link to="/newsletter">Sign up for preorders</Link></li>
       </ul>
     </div>
   </header>
