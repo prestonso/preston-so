@@ -16,7 +16,7 @@ const IndexPage = () => (
       body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>conversational design</strong>, and the <strong>future of content strategy</strong>.</p>}
     />
     <Card
-      type="voice"
+      type="light-blue"
       orientation="right"
       title="I ran an innovation lab."
       body={<p>I launched <a href="https://acquia.com/resources/acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, an innovation lab at <a href="https://www.acquia.com/" target="_blank" rel="noopener noreferrer">Acquia</a>, the open-source digital experience company, where I also did product strategy and developer relations.</p>}
@@ -25,7 +25,7 @@ const IndexPage = () => (
       featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
     />
     <Card
-      type="work"
+      type="dark-gold"
       orientation="left"
       title="I design experiences."
       body={<p>Since 2004, I've designed experiences and consulted on user experience for clients across the United States, including work in web, print, brand, and conversational along the way.</p>}
@@ -34,7 +34,7 @@ const IndexPage = () => (
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
     />
     <Card
-      type="writing"
+      type="light-teal"
       orientation="right"
       title="I write books & more."
       body={<p>I wrote <a href="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1" target="_blank" rel="noopener noreferrer">the book on decoupled Drupal</a>, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noopener noreferrer">Dries Buytaert</a>, who called it “a must-have guide.” I’ve also written for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>, and <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>.</p>}
@@ -43,7 +43,7 @@ const IndexPage = () => (
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal across the stack.</p>}
     />
     <Card
-      type="speaking"
+      type="dark-violet"
       orientation="left"
       title="I talk shop worldwide."
       body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> on five continents. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
@@ -94,7 +94,7 @@ const IndexPage = () => (
       }
     />
     <Card
-      type="open-source"
+      type="light-navy"
       orientation="right"
       title="I work on open source."
       body={<p>I wrote the initial version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to the <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}

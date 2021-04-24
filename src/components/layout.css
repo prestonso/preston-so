@@ -330,7 +330,6 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card__feature__listing h4 {
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
-  font-weight: normal;
 }
 
 .card__feature__listing ul {
@@ -388,30 +387,32 @@ nav ul li a:hover,  nav ul li a:active {
   color: #232323;
 }
 
-.card--voice,
+.card--light-blue,
 .card--main {
   background: #e4e4e4 url('../images/card-labs.png') repeat fixed;
 }
 
-.card--voice h2, .card--voice a {
+.card--light-blue h2,
+.card--light-blue a {
   color: rgb(73,163,206);
 }
 
-.card--voice .card__container {
+.card--light-blue .card__container {
   background-color: rgba(73,163,206,0.25);
 }
 
-.card--voice .card__feature {
+.card--light-blue .card__feature {
   background: transparent url('../images/card-labs-feature-ask-georgiagov.png') no-repeat bottom left;
   background-size: contain;
   min-height: 30em;
 }
 
-.card--voice .card__feature__content {
+.card--light-blue .card__feature__content {
   color: #e4e4e4;
 }
 
-.card--main h2, .card--main a {
+.card--main h2,
+.card--main a {
   color: #21648b;
 }
 
@@ -436,77 +437,88 @@ nav ul li a:hover,  nav ul li a:active {
   margin: 0;
 }
 
-.card--work {
+.card--dark-sienna {
+  background: #232323 url('../images/card-languages.png') repeat fixed;
+}
+
+.card--dark-sienna h2,
+.card--dark-sienna a {
+  color: rgb(251,140,0);
+}
+
+.card--dark-sienna .card__container {
+  background-color: rgba(251,140,0,0.5);
+}
+
+.card--dark-gold {
   background: #232323 url('../images/card-work.png') repeat fixed;
 }
 
-.card--work h2, .card--work a {
+.card--dark-gold h2,
+.card--dark-gold a {
   color: rgb(205,155,35);
 }
 
-.card--work .card__container {
+.card--dark-gold .card__container {
   background-color: rgba(205,155,35,0.25);
 }
 
-.card--work .card__feature {
+.card--dark-gold .card__feature {
   background: transparent url('../images/card-work-feature-harvard-crimson.png') no-repeat top right;
   background-size: contain;
   min-height: 33em;
 }
 
-.card--writing {
+.card--light-teal {
   background: #e4e4e4 url('../images/card-articles.png') repeat fixed;
 }
 
-.card--writing h2, .card--writing a, .card--writing ul li a, .card--writing p a {
+.card--light-teal h2,
+.card--light-teal a,
+.card--light-teal ul li a,
+.card--light-teal p a {
   color: rgb(39,95,95);
 }
 
-.card--writing .card__container {
+.card--light-teal .card__container {
   background-color: rgba(0,59,59,0.3);
 }
 
-.card--writing .card__feature {
+.card--light-teal .card__feature {
   background: transparent url('../images/card-articles-feature-decoupled-drupal.png') no-repeat top left;
   background-size: contain;
   min-height: 30em;
 }
 
-.card--speaking {
-  background: #000 url('../images/card-speaking.jpg') no-repeat bottom right;
-  background-size: cover;
+.card--light-teal .card__feature__content {
+  color: #000;
 }
 
-.card--speaking h2, .card--speaking a {
+.card--dark-violet {
+  background: #000 url('../images/card-speaking.jpg') no-repeat bottom right;
+  background-size: contain;
+}
+
+.card--dark-violet h2,
+.card--dark-violet a {
   color: rgb(194,123,160);
 }
 
-.card--speaking .card__container {
+.card--dark-violet .card__container {
   background-color: rgba(194,123,160,0.9);
 }
 
-.card--open-source {
+.card--light-navy {
   background: #e4e4e4 url('../images/card-drupal.png') repeat fixed;
 }
 
-.card--open-source h2, .card--open-source a {
+.card--light-navy h2,
+.card--light-navy a {
   color: rgb(33,100,139);
 }
 
-.card--open-source .card__container {
+.card--light-navy .card__container {
   background-color: rgba(33,100,139,0.35);
-}
-
-.card--languages {
-  background: #232323 url('../images/card-languages.png') repeat fixed;
-}
-
-.card--languages h2, .card--languages a {
-  color: rgb(251,140,0);
-}
-
-.card--languages .card__container {
-  background-color: rgba(251,140,0,0.5);
 }
 
 /**
