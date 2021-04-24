@@ -12,40 +12,83 @@ const IndexPage = () => (
     <Card
       type="intro"
       orientation="no"
-      title="Hi! I'm Preston."
+      title="Hi! I’m Preston."
       body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>conversational design</strong>, and the <strong>future of content strategy</strong>.</p>}
     />
     <Card
-      type="light-blue"
-      orientation="right"
-      title="I ran an innovation lab."
-      body={<p>I launched <a href="https://acquia.com/resources/acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, an innovation lab at <a href="https://www.acquia.com/" target="_blank" rel="noopener noreferrer">Acquia</a>, the open-source digital experience company, where I also did product strategy and developer relations.</p>}
-      featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
-      featureTitle="Alexa, ask GeorgiaGov"
-      featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
-    />
-    <Card
-      type="dark-gold"
+      type="dark-sienna"
       orientation="left"
-      title="I design experiences."
-      body={<p>Since 2004, I've designed experiences and consulted on user experience for clients across the United States, including work in web, print, brand, and conversational along the way.</p>}
-      featureLink="https://thecrimson.com/"
-      featureTitle="The Harvard Crimson"
-      featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
+      title="Give content a voice."
+      titleLink="/books/voice-content"
+      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
+      featureLink="https://preston.so/books/voice-content"
+      featureTitle={<em>Voice Content and Usability</em>}
+      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
     />
     <Card
       type="light-teal"
       orientation="right"
       title="I write books & more."
+      titleLink="/writing"
       body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to voice content, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer">Gatsby</a>, and <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">decoupled Drupal</a>.</p>}
-      featureLink="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1"
-      featureTitle={<em>Decoupled Drupal in Practice</em>}
-      featureBody={<p>The first and only comprehensive guide to decoupled Drupal across the stack.</p>}
+      listing={
+        <>
+          <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
+          <ul>
+            <li>
+              <h4><a href="https://preston.so/writing/no-persona-left-behind-the-emerging-schism-in-content-management-systems" target="_blank" rel="noopener noreferrer">No persona left behind: The emerging schism in content management systems</a></h4>
+              <p>April 29, 2020</p>
+            </li>
+          </ul>
+          <h3>For <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a></h3>
+          <ul>
+            <li>
+              <h4><a href="https://alistapart.com/article/usability-testing-for-voice-content/">Usability testing for voice content</a></h4>
+              <p>April 9, 2020</p>
+            </li>
+          </ul>
+          <h3>For <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a></h3>
+          <ul>
+            <li>
+              <h4><a href="https://www.cmswire.com/digital-experience/how-the-move-from-web-cms-to-dxp-is-fraying-key-social-contracts/">How the move from web CMS to DXP is fraying key social contracts</a></h4>
+              <p>February 9, 2021</p>
+            </li>
+          </ul>
+          <h3>For <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a></h3>
+          <ul>
+            <li>
+              <h4><a href="https://www.smashingmagazine.com/2020/10/using-webxr-with-babylonjs/" target="_blank" rel="noopener noreferrer">Using WebXR with Babylon.js</a></h4>
+              <p>October 9, 2020</p>
+            </li>
+          </ul>
+        </>
+      }
+    />
+    <Card
+      type="dark-gold"
+      orientation="left"
+      title="I’m available for hire."
+      titleLink="/work"
+      body={<p>Since 2004, <Link to="/work">I've consulted</Link> on CMS architectures and designed ambitious experiences for clients in the U.S. and Japan, including work in headless CMS, voice design, and web, print, and brand.</p>}
+      featureLink="https://thecrimson.com/"
+      featureTitle="The Harvard Crimson"
+      featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
+    />
+    <Card
+      type="light-blue"
+      orientation="right"
+      title="I ran an innovation lab."
+      titleLink="/work"
+      body={<p>I launched <a href="https://acquia.com/resources/acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, an innovation lab, and did product strategy and developer relations at Acquia. We built groundbreaking voice projects for the <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>.</p>}
+      featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
+      featureTitle="Alexa, ask GeorgiaGov"
+      featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
     />
     <Card
       type="dark-violet"
       orientation="left"
       title="I talk shop worldwide."
+      titleLink="/speaking"
       body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> in three languages. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
       listing={
         <>
@@ -97,6 +140,7 @@ const IndexPage = () => (
       type="light-navy"
       orientation="right"
       title="I work on open source."
+      titleLink="/work"
       body={<p>I wrote the first version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to Drupal's <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}
       listing={
         <>
