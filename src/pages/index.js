@@ -37,7 +37,7 @@ const IndexPage = () => (
       type="light-teal"
       orientation="right"
       title="I write books & more."
-      body={<p>I wrote <a href="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1" target="_blank" rel="noopener noreferrer">the book on decoupled Drupal</a>, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noopener noreferrer">Dries Buytaert</a>, who called it “a must-have guide.” I’ve also written for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>, and <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>.</p>}
+      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to voice content, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer">Gatsby</a>, and <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">decoupled Drupal</a>.</p>}
       featureLink="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal across the stack.</p>}
@@ -46,17 +46,11 @@ const IndexPage = () => (
       type="dark-violet"
       orientation="left"
       title="I talk shop worldwide."
-      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> on five continents. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
+      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> in three languages. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
       listing={
         <>
           <h3>Upcoming</h3>
           <ul>
-            <li>
-              <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
-              <p>(with Nani Jansen Reventlow)</p>
-              <p>DrupalCon North America 2021</p>
-              <p>Virtual</p>
-            </li>
             <li>
               <h4><a href="https://omnichannelx.digital/session/how-to-make-the-move-to-headless-cms-and-true-omnichannel/" target="_blank" rel="noopener noreferrer">How to make the move to headless CMS and true omnichannel</a></h4>
               <p>OmnichannelX 2021</p>
@@ -65,6 +59,12 @@ const IndexPage = () => (
           </ul>
           <h3>Latest</h3>
           <ul>
+            <li>
+              <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
+              <p>(with Nani Jansen Reventlow)</p>
+              <p>DrupalCon North America 2021</p>
+              <p>Virtual</p>
+            </li>
             <li>
               <h4><a href="https://thedevconf.com/tdc/2020/recifeonline/trilha-stadium-quarta" target="_blank" rel="noopener noreferrer">O CMS distribuído e o futuro do gerenciamento de conteúdo</a></h4>
               <p>TDC Recife 2020</p>
@@ -97,7 +97,7 @@ const IndexPage = () => (
       type="light-navy"
       orientation="right"
       title="I work on open source."
-      body={<p>I wrote the initial version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to the <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}
+      body={<p>I wrote the first version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to Drupal's <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}
       listing={
         <>
           <h3>Authored</h3>
