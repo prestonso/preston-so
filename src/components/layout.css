@@ -330,6 +330,7 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card__feature__listing h4 {
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
+  font-weight: bold;
 }
 
 .card__feature__listing ul {
@@ -340,10 +341,6 @@ nav ul li a:hover,  nav ul li a:active {
 .card__feature__listing ul li {
   list-style: none;
   margin-bottom: 1rem;
-}
-
-.card__feature__listing ul li a, .card__feature__listing p a {
-  color: #fff;
 }
 
 /**
@@ -501,11 +498,11 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card--dark-violet h2,
 .card--dark-violet a {
-  color: rgb(194,123,160);
+  color: rgb(134,63,100);
 }
 
 .card--dark-violet .card__container {
-  background-color: rgba(194,123,160,0.9);
+  background-color: rgba(254,183,220,0.9);
 }
 
 .card--light-navy {
@@ -518,7 +515,7 @@ nav ul li a:hover,  nav ul li a:active {
 }
 
 .card--light-navy .card__container {
-  background-color: rgba(33,100,139,0.35);
+  background-color: rgba(73,140,179,0.35);
 }
 
 /**
