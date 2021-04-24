@@ -10,14 +10,14 @@ const Footer = (props) => (
   <>
     <Location>
       {({ location }) => {
-        if (!['/contact/', '/contact-success/', '/newsletter/', '/newsletter-success/'].includes(location.pathname)) {
+        if (!location.pathname.match(/^(\/contact|\/newsletter)+?/)) {
           return <Card
             type="outro"
             orientation="no"
             title="Before you go ..."
             body={
               <>
-                <p><strong>Subscribe to my occasional newsletter.</strong> No spam. Just irregular musings and exclusive content about omnichannel content strategy, the future of digital experiences, conversational design, and more.</p>
+                <p><strong>Subscribe to my occasional newsletter.</strong> No spam. Just writing and speaking about omnichannel content and more. Also, <strong>be the first to know</strong> when my new book <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link> is launched.</p>
                 <form
                   name="newsletter"
                   method="post"
@@ -41,7 +41,8 @@ const Footer = (props) => (
             }
           />
         }
-      }}
+      }
+    }
     </Location>
     <footer>
       <div className="footer__container">
