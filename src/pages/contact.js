@@ -47,7 +47,7 @@ const ContactPage = () => (
           </div>
           <div className="card__field">
             <input type="checkbox" id="newsletter" name="newsletter" />
-            <label for="newsletter">Subscribe to my monthly newsletter. No spam, just musings.</label>
+            <label htmlFor="newsletter">Subscribe to my occasional newsletter. No spam, just musings.</label>
           </div>
           <ul className="card__actions">
             <li>
