@@ -13,7 +13,7 @@ const SpeakingPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Speaking"
-      body={<p>Preston has spoken on a diverse range of topics at <strong>over fifty conferences</strong> around the world in <strong>three languages</strong>.</p>}
+      body={<p>Preston has spoken on a diverse range of topics at <strong>over fifty conferences</strong> around the world, including <strong>keynotes in three languages</strong>.</p>}
     />
     <Card
       type="main"
