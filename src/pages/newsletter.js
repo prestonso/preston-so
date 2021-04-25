@@ -12,7 +12,7 @@ const NewsletterPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Newsletter"
-      body={<p>No spam. <strong>Be the first to know</strong> when my new book <em>Voice Content and Usability</em> is out. Also, <strong>occasional musings</strong> and <strong>exclusive content</strong>.</p>}
+      body={<p>No spam. <strong>Be the first to know</strong> when my new book <em>Voice Content and Usability</em> is out. Also, <strong>occasional resources</strong> and <strong>exclusive content</strong>.</p>}
     />
     <Card
       type="main"
