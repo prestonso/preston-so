@@ -13,13 +13,13 @@ const WorkPage = () => (
       type="intro"
       orientation="no"
       title="Work"
-      body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>conversational design</strong>, and the <strong>future of content strategy</strong>.</p>}
+      body={<p>I've worked with clients the world over on <strong>omnichannel content strategy</strong>, <strong>headless CMS architectures</strong>, and <strong>voice and immersive strategy</strong>. <Link to="/contact">Hire me!</Link></p>}
     />
     <Card
       type="light-blue"
       orientation="right"
-      title="I ran an innovation lab."
-      body={<p>I launched <a href="https://acquia.com/resources/acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, an innovation lab at <a href="https://www.acquia.com/" target="_blank" rel="noopener noreferrer">Acquia</a>, the open-source digital experience company, where I also did product strategy and developer relations.</p>}
+      title="I do voice content & immersive content."
+      body={<p>I provide <Link to="/contact">content strategy support and architectural consulting</Link> on content-driven voice and immersive experiences. Past voice work includes <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>.</p>}
       featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
       featureTitle="Alexa, ask GeorgiaGov"
       featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
@@ -27,8 +27,8 @@ const WorkPage = () => (
     <Card
       type="dark-gold"
       orientation="left"
-      title="I’m available for hire."
-      body={<p>Since 2004, I've consulted on CMS architectures and designed ambitious experiences for clients in the U.S. and Japan, including work in headless CMS, voice design, and web, print, and brand.</p>}
+      title="I do headless CMS and web architecture."
+      body={<p>I offer <Link to="/contact">expert guidance and architectural support</Link> for teams working on headless CMS, universal JavaScript, and Jamstack projects in an advisory and coaching capacity. Clients include <a href="https://genero.jp/" target="_blank" rel="noopener noreferrer">Genero</a>.</p>}
       featureLink="https://thecrimson.com/"
       featureTitle="The Harvard Crimson"
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
@@ -36,17 +36,17 @@ const WorkPage = () => (
     <Card
       type="light-teal"
       orientation="right"
-      title="I write books & more."
-      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to voice content, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer">Gatsby</a>, and <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">decoupled Drupal</a>.</p>}
-      featureLink="https://www.amazon.com/Decoupled-Drupal-Practice-Architect-Architectures/dp/1484240715/ref=sr_1_1"
+      title="I do written thought leadership."
+      body={<p>I direct <Link to="/contact">content marketing and product positioning strategies</Link> with well-positioned articles and treatises that support your business. Clients include <a href="https://srijan.net" target="_blank" rel="noopener noreferrer">Srijan</a> and <a href="https://tag1consulting.com" target="_blank" rel="noopener noreferrer">Tag1 Consulting</a>.</p>}
+      featureLink="https://preston.so/books/decoupled-drupal"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal across the stack.</p>}
     />
     <Card
       type="dark-violet"
       orientation="left"
-      title="I talk shop worldwide."
-      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> in three languages. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
+      title="I do talks, workshops, trainings, & seminars."
+      body={<p>In <Link to="/speaking/">dozens of events</Link> and keynotes in Portuguese, Spanish, and English, I've spoken to developer, executive, and youth audiences at events like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>. <Link to="/contact">Hire me to speak!</Link></p>}
       listing={
         <>
           <h3>Upcoming</h3>
@@ -96,8 +96,8 @@ const WorkPage = () => (
     <Card
       type="light-navy"
       orientation="right"
-      title="I work on open source."
-      body={<p>I wrote the first version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to Drupal's <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}
+      title="I do meaningful work."
+      body={<p>I believe in doing good work that makes an impact and gives back. I contribute to non-profit and open-source efforts and advocate equity and accessibility in all projects. <Link to="/contact">Work with me!</Link></p>}
       listing={
         <>
           <h3>Authored</h3>
