@@ -18,7 +18,7 @@ const GatsbyPage = () => (
       type="light-blue book"
       orientation="left"
       title="Gatsby, the right way."
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O'Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a>.</p>}
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a>.</p>}
       featureLink="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}

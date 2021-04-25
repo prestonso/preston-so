@@ -69,7 +69,7 @@ const IndexPage = () => (
       orientation="left"
       title="I’m available for hire."
       titleLink="/work"
-      body={<p>Since 2004, <Link to="/work">I've consulted</Link> on CMS architectures, digital experiences, and marketing for clients in India, Japan, and the U.S., with work in headless CMS, web and voice, and content strategy.</p>}
+      body={<p>Since 2004, <Link to="/work">I’ve consulted</Link> on CMS architectures, digital experiences, and marketing for clients in India, Japan, and the U.S., with work in headless CMS, web and voice, and content strategy.</p>}
       featureLink="https://thecrimson.com/"
       featureTitle="The Harvard Crimson"
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
@@ -89,7 +89,7 @@ const IndexPage = () => (
       orientation="left"
       title="I talk shop worldwide."
       titleLink="/speaking"
-      body={<p>I've been a speaker since 2008 at <Link to="/speaking/">dozens of conferences</Link>, like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>, in three languages. If you'd like me to speak at your event or your company, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
+      body={<p>I’ve been a speaker since 2008 at <Link to="/speaking/">dozens of conferences</Link>, like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>, in three languages. If you’d like me to speak at your event or your company, <Link to="/contact/">I’d love to hear from you</Link>.</p>}
       listing={
         <>
           <h3>Upcoming</h3>

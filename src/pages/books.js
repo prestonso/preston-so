@@ -13,7 +13,7 @@ const BooksPage = () => (
       type="intro"
       orientation="no"
       title="Books"
-      body={<p>My books cover <strong>content strategy</strong> and <strong>content architectures</strong>, with authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
+      body={<p>My books cover <strong>content strategy</strong> and <strong>content architectures</strong>, including the authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
     />
     <Card
       type="dark-sienna"
@@ -30,7 +30,7 @@ const BooksPage = () => (
       orientation="right"
       title="Gatsby, the right way."
       titleLink="/books/gatsby"
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O'Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>.</p>}
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>.</p>}
       featureLink="https://preston.so/books/gatsby"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}

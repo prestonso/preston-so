@@ -13,13 +13,13 @@ const VoiceContentPage = () => (
       type="intro"
       orientation="no"
       title={<em>Voice Content and Usability</em>}
-      body={<p>The definitive book on voice content and A Book Apart's first voice title.</p>}
+      body={<p>The definitive book on voice content and A Book Apart’s first voice title.</p>}
     />
     <Card
       type="dark-sienna"
       orientation="right"
       title="Content with a voice."
-      body={<p>Voice content enriches interactions with content, but it also poses vexing questions. Get the answers from A Book Apart's first voice title, <em>Voice Content and Usability</em>. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
+      body={<p>Voice content enriches interactions with content, but it also poses vexing questions. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
       featureLink="https://preston.so/books/voice-content"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
@@ -40,7 +40,7 @@ const VoiceContentPage = () => (
             <li>
               <h3>Chapter 2</h3>
               <h4>Getting content ready for voice</h4>
-              <p>Author, design, and plan voice content that's future-proof, by auditing your existing web content so it's ready for prime time or conceiving new copy.</p>
+              <p>Author, design, and plan voice content that’s future-proof, by auditing your existing web content so it’s ready for prime time or conceiving new copy.</p>
             </li>
             <li>
               <h3>Chapter 3</h3>
@@ -60,7 +60,7 @@ const VoiceContentPage = () => (
             <li>
               <h3>Chapter 6</h3>
               <h4>The future of voice content</h4>
-              <p>Learn what's ahead in voice and how it's confronting new possibilities—and risks—in accessibility, equity, and the very notion of what content is.</p>
+              <p>Learn what’s ahead in voice and how it’s confronting new possibilities—and risks—in accessibility, equity, and the very notion of what content is.</p>
             </li>
           </ul>
         </>
@@ -77,7 +77,7 @@ const VoiceContentPage = () => (
             <cite><a href="https://sarawb.com" target="_blank" rel="noopener noreferrer">Sara Wachter-Boettcher</a>, Founder, Active Voice and co-author, <em>Design for Real Life</em></cite>
           </blockquote>
           <blockquote>
-            <p>“Preston So's <em>Voice Content and Usability</em> is a fascinating and invaluable guide to the peculiarities and potential of a platform we're only just beginning to understand. I, for one, would not want to work on a voice interface without it.”</p>
+            <p>“Preston So’s <em>Voice Content and Usability</em> is a fascinating and invaluable guide to the peculiarities and potential of a platform we’re only just beginning to understand. I, for one, would not want to work on a voice interface without it.”</p>
             <cite><a href="https://www.daviddylanthomas.com/" target="_blank" rel="noopener noreferrer">David Dylan Thomas</a>, Founder & CEO, David Dylan Thomas, LLC</cite>
           </blockquote>
           <blockquote>
@@ -85,7 +85,7 @@ const VoiceContentPage = () => (
             <cite><a href="https://aaron-gustafson.com" target="_blank" rel="noopener noreferrer">Aaron Gustafson</a>, Author, <em>Adaptive Web Design</em></cite>
           </blockquote>
           <blockquote>
-            <p>“I've always admired Preston's ability to fly high and when needed dive into the weeds. This book takes us through the high altitudes of understanding and planning for voice interfaces and a deep dive into the intricacies of content and technical implementation. An all-round view of the future of interactions and how we can design them to be fair and effective.”</p>
+            <p>“I've always admired Preston’s ability to fly high and when needed dive into the weeds. This book takes us through the high altitudes of understanding and planning for voice interfaces and a deep dive into the intricacies of content and technical implementation. An all-round view of the future of interactions and how we can design them to be fair and effective.”</p>
             <cite><a href="https://digitalservices.georgia.gov/nikhil-deshpande" target="_blank" rel="noopener noreferrer">Nikhil Deshpande</a>, Chief Digital Officer of the State of Georgia</cite>
           </blockquote>
           <blockquote>

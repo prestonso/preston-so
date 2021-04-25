@@ -90,7 +90,7 @@ const DecoupledDrupalPage = () => (
             <cite><a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noopener noreferrer">Dries Buytaert</a>, Drupal project lead and Acquia founder</cite>
           </blockquote>
           <blockquote>
-            <p>“This is a really great book. I've been reading blog posts by Preston, hearing him present, and asking him questions on decoupled every chance I can get and I'm so glad to have those thoughts in a physical form I can read through and consult whenever I have questions.”</p>
+            <p>“This is a really great book. I’ve been reading blog posts by Preston, hearing him present, and asking him questions on decoupled every chance I can get and I’m so glad to have those thoughts in a physical form I can read through and consult whenever I have questions.”</p>
             <cite><a href="https://knaddison.com" target="_blank" rel="noopener noreferrer">Greg Knaddison</a>, Drupal Security Team member</cite>
           </blockquote>
           <blockquote>
