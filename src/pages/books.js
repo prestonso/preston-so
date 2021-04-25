@@ -8,19 +8,19 @@ import Card from "../components/card"
 
 const BooksPage = () => (
   <Layout>
-    <SEO title="Books by Preston So" keywords={[`Preston So`, `preston.so`, `books`, `author`, `book`, `bibliography`]} />
+    <SEO title="Books" keywords={[`Preston So`, `preston.so`, `books`, `author`, `book`, `bibliography`]} />
     <Card
       type="intro"
       orientation="no"
       title="Books"
-      body={<p>I write at the intersection of <strong>content strategy</strong> and <strong>content architectures</strong>, with authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
+      body={<p>My books cover <strong>content strategy</strong> and <strong>content architectures</strong>, with authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
     />
     <Card
       type="dark-sienna"
       orientation="left"
       title="Voice content for all."
       titleLink="/books/voice-content"
-      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind and enable your users with my new A Book Apart book, <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>.</p>}
+      body={<p>How can we make our web-biased content ready for voice? How does voice scramble our design and content strategy? Find out in my new A Book Apart book, <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>.</p>}
       featureLink="https://preston.so/books/voice-content"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
