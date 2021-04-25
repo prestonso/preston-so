@@ -13,7 +13,7 @@ const IndexPage = () => (
       type="intro"
       orientation="no"
       title="Hi! I’m Preston."
-      body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>conversational design</strong>, and the <strong>future of content strategy</strong>.</p>}
+      body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>content architectures</strong>, and the <strong>future of content strategy</strong>.</p>}
     />
     <Card
       type="dark-sienna"
@@ -30,7 +30,7 @@ const IndexPage = () => (
       orientation="right"
       title="I write books & more."
       titleLink="/writing"
-      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to voice content, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer">Gatsby</a>, and <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">decoupled Drupal</a>.</p>}
+      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>.</p>}
       listing={
         <>
           <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
@@ -69,7 +69,7 @@ const IndexPage = () => (
       orientation="left"
       title="I’m available for hire."
       titleLink="/work"
-      body={<p>Since 2004, <Link to="/work">I've consulted</Link> on CMS architectures and designed ambitious experiences for clients in the U.S. and Japan, including work in headless CMS, voice design, and web, print, and brand.</p>}
+      body={<p>Since 2004, <Link to="/work">I've consulted</Link> on CMS architectures, digital experiences, and marketing for clients in India, Japan, and the U.S., with work in headless CMS, web and voice, and content strategy.</p>}
       featureLink="https://thecrimson.com/"
       featureTitle="The Harvard Crimson"
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
@@ -79,7 +79,7 @@ const IndexPage = () => (
       orientation="right"
       title="I ran an innovation lab."
       titleLink="/work"
-      body={<p>I launched <a href="https://acquia.com/resources/acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, an innovation lab, and did product strategy and developer relations at Acquia. We built groundbreaking voice projects for the <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>.</p>}
+      body={<p>I led <a href="https://dri.es/think-beyond-with-acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, which built groundbreaking voice projects for the <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>, and product, design, and engineering teams at Time Inc., Acquia, and Gatsby.</p>}
       featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
       featureTitle="Alexa, ask GeorgiaGov"
       featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
@@ -89,7 +89,7 @@ const IndexPage = () => (
       orientation="left"
       title="I talk shop worldwide."
       titleLink="/speaking"
-      body={<p>I've been a speaker for more than a decade at over <Link to="/speaking/">fifty conferences</Link> in three languages. If you'd like me to speak at your event or your organization, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
+      body={<p>I've been a speaker since 2008 at <Link to="/speaking/">dozens of conferences</Link>, like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>, in three languages. If you'd like me to speak at your event or your company, <Link to="/contact/">I'd love to hear from you</Link>.</p>}
       listing={
         <>
           <h3>Upcoming</h3>
