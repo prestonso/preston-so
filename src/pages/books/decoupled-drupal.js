@@ -29,7 +29,7 @@ const DecoupledDrupalPage = () => (
       orientation="right"
       title="What's in the book?"
       titleLink="/work"
-      body={<p><em>Decoupled Drupal in Practice</em> has everything you need to know to architect and implement decoupled Drupal projects. Get the full-stack knowledge you need. <Link to="/writing/graphql-in-drupal-an-exclusive-excerpt-from-the-forthcoming-book-decoupled-drupal-in-practice">Read an excerpt</Link>.</p>}
+      body={<p><em>Decoupled Drupal in Practice</em> has everything you need to know to architect and implement decoupled Drupal projects. Get the full-stack finesse you need. <Link to="/writing/graphql-in-drupal-an-exclusive-excerpt-from-the-forthcoming-book-decoupled-drupal-in-practice">Read an excerpt</Link> or <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">order now</a>.</p>}
       listing={
         <>
           <h3>Part 1: Decoupled Drupal fundamentals</h3>
@@ -101,6 +101,7 @@ const DecoupledDrupalPage = () => (
             <p>“Covers pretty much everything you want to know about decoupled Drupal right now.”</p>
             <cite><a href="https://nickgs.com" target="_blank" rel="noopener noreferrer">Nick Selvaggio</a>, Director of IT at American Diagnostic</cite>
           </blockquote>
+          <p><em>Decoupled Drupal in Practice</em> is <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><strong>available now</strong></a>!</p>
         </>
       }
     />
