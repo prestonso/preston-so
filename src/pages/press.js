@@ -13,7 +13,7 @@ const PressPage = ({ data }) => (
       type="intro"
       orientation="no"
       title="Press"
-      body={<p>Preston has appeared in press coverage by ZDNet, VentureBeat, and media outlets in Australia, Brazil, and Turkey.</p>}
+      body={<p>Preston has appeared in press coverage by <strong>ZDNet</strong>, <strong>VentureBeat</strong>, and media outlets in <strong>Australia</strong>, <strong>Brazil</strong>, <strong>Turkey</strong>, and the <strong>United States</strong>.</p>}
     />
     <Card
       type="main"
