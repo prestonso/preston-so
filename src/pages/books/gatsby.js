@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -8,7 +7,7 @@ import Card from "../../components/card"
 
 const GatsbyPage = () => (
   <Layout>
-    <SEO title="Books by Preston So" keywords={[`Preston So`, `preston.so`, `books`, `author`, `book`, `bibliography`]} />
+    <SEO title="Gatsby: The Definitive Guide" keywords={[`Preston So`, `preston.so`, `book`, `author`, `gatsbyjs`, `Gatsby`, `jamstack`]} />
     <Card
       type="intro"
       orientation="no"
@@ -16,31 +15,52 @@ const GatsbyPage = () => (
       body={<p>The first full book on Gatsby for developers ever to hit bookshelves.</p>}
     />
     <Card
-      type="dark-sienna"
-      orientation="left"
-      title="Voice content for all."
-      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind and stay ahead with my new A Book Apart book, <Link to="/"><em>Voice Content and Usability</em></Link>.</p>}
-      featureLink="https://preston.so/books/voice-content"
-      featureTitle={<em>Voice Content and Usability</em>}
-      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
-    />
-    <Card
       type="light-blue book"
-      orientation="right"
+      orientation="left"
       title="Gatsby, the right way."
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O'Reilly book, <Link to="/newsletter"><em>Gatsby: The Definitive Guide</em></Link>.</p>}
-      featureLink="https://preston.so/books/voice-content"
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O'Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a>.</p>}
+      featureLink="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}
     />
     <Card
-      type="dark-gold book"
-      orientation="left"
-      title="Decoupled Drupal, across the stack."
-      body={<p>The comprehsensive authority on decoupled Drupal, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <Link to="/newsletter"><em>Decoupled Drupal in Practice</em></Link>.</p>}
-      featureLink="https://preston.so/books/voice-content"
-      featureTitle={<em>Decoupled Drupal in Practice</em>}
-      featureBody={<p>The first and only comprehensive guide to decoupled Drupal, <strong>available now</strong>.</p>}
+      type="light-navy"
+      orientation="right"
+      title="What's in the book?"
+      body={<p><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a> is your end-to-end teacher for Gatsby and the Jamstack, with full coverage to get you up and running quickly and all set for advanced requirements.</p>}
+      listing={
+        <>
+          <h3>Part 1: Elementary Gatsby</h3>
+          <ol>
+            <li>Gatsby fundamentals</li>
+            <li>Core elements of Gatsby</li>
+            <li>Adding features to Gatsby sites</li>
+          </ol>
+          <h3>Part 2: Data in Gatsby</h3>
+          <ol start="4">
+            <li>GraphQL and the Gatsby data layer</li>
+            <li>Source plugins and sourcing data</li>
+            <li>Programmatic page creation</li>
+            <li>Assets in Gatsby</li>
+            <li>Adding data-driven features to Gatsby sites</li>
+          </ol>
+          <h3>Part 3: Extending Gatsby</h3>
+          <ol start="9">
+            <li>Gatsby plugins and starters</li>
+            <li>Gatsby themes</li>
+          </ol>
+          <h3>Part 4: Production Gatsby</h3>
+          <ol start="11">
+            <li>Debugging and testing Gatsby</li>
+            <li>Deploying Gatsby</li>
+          </ol>
+          <h3>Part 5: Advanced Gatsby</h3>
+          <ol start="13">
+            <li>Advanced topics in Gatsby</li>
+            <li>Gatsby internals</li>
+          </ol>
+        </>
+      }
     />
   </Layout>
 )
