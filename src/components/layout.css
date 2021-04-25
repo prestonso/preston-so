@@ -360,7 +360,8 @@ nav ul li a:hover,  nav ul li a:active {
   font-weight: bold;
 }
 
-.card__feature__listing ul {
+.card__feature__listing ul,
+.card__feature__listing p:last-child {
   padding: 0;
   margin-bottom: 2rem;
 }
@@ -644,10 +645,6 @@ footer h3 {
     columns: 2;
   }
 
-  .card__content__listing {
-    min-height: 10em;
-  }
-
   .card--dark-violet {
     background-size: contain;
   }
@@ -662,7 +659,6 @@ footer h3 {
   nav ul li a {
     padding: 1rem 0.25rem 1rem 1.5rem;
   }
-
 }
 
 @media all and (min-width: 67em) {
@@ -723,7 +719,7 @@ footer h3 {
   .card__content__listing ul li {
     float: left;
     width: 30%;
-    height: 7.5em;
+    min-height: 10em;
     padding-right: 1.5rem;
   }
 
