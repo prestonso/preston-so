@@ -18,11 +18,27 @@ const VoiceContentPage = () => (
     <Card
       type="dark-sienna"
       orientation="right"
-      title="Content with a voice."
+      title="Give your content a voice of its own."
       body={<p>Voice content enriches interactions with content, but it also poses vexing questions. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
       featureLink="https://preston.so/books/voice-content"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
+    />
+    <Card
+      type="main"
+      orientation="no"
+      title={<>Why read <em>Voice Content and Usability</em>?</>}
+      body={
+        <>
+          <p><strong>Picture this:</strong> You’ve spent years honing and perfecting your content, looking for stray siloes here and tamping down orphaned pages there. You’ve made it. The website you’ve carefully crafted is semantically rich, astutely architected, and eminently navigable. But then the overzealous executive team and ambitious product manager call a meeting and demand the ability to deliver the same content via voice, through Amazon Alexa, Google Home, and devices you might have at home but that have long felt impenetrable.</p>
+          <p>What do you do? How do you build <em>voice content</em> where “picture this” becomes an impossibility? where leafing through becomes listening through? where navigating becomes negotiating?</p>
+          <p>The ongoing technological “quickening” and accelerating demands for multichannel convenience are upending all the old paradigms we used to hold dear: links and sitemaps, navbars and breadcrumbs, calls to action and clicks to subscribe. When all your users have in front of them is a smart speaker without a screen, where do you even begin when it comes to design, content strategy, and accessibility?</p>
+          <p>Voice content demands a completely different approach, and it forces us to play in the sandbox not of visual screens and handheld gadgets but rather in the ancient vernacular and instinctual habits of our most primordial practice: natural human conversation. Instead of us contorting our brains to type on keyboards and move cursors around, it’s machines that have to do the heavy lifting to chat with us. In some ways, it’s an advantage. In others, it just reveals how much our content strategy and design practices remain rooted in the visual and artificial rather than the verbal and organic.</p>
+          <p><em>Voice Content and Usability</em> will give you the techniques and insights you need to make voice content a tangible—and talkable—reality. Learn from the real-world example of Ask GeorgiaGov, the first-ever Alexa skill for residents of the state of Georgia and one of the earliest content-driven voice interfaces. Whether you’ve never thought about voice interfaces before or you’re knee-deep in an ongoing voice project, join me as we move away from screens and scrollbars and into the realm of sound and speech.</p>
+          <p>But don’t take my word for it. By the end, your content will speak for itself.</p>
+          <p><Link to="/newsletter"><strong>Sign up for preorders</strong></Link></p>
+        </>
+      }
     />
     <Card
       type="light-navy"
@@ -69,7 +85,7 @@ const VoiceContentPage = () => (
     <Card
       type="main"
       orientation="no"
-      title={<>Praise for <em>Decoupled Drupal in Practice</em></>}
+      title={<>Praise for <em>Voice Content and Usability</em></>}
       body={
         <>
           <blockquote>
@@ -92,6 +108,7 @@ const VoiceContentPage = () => (
             <p>“<em>Voice Content and Usability</em> by Preston So is a highly readable book packed with practical advice for designers of voice-based conversational systems. Voice systems are brought to life with copious examples from an actual implementation of an Alexa skill created to provide information for residents of Georgia. Among the topics discussed are how to transform web-based content into conversational voice-based content, the elements of dialogue, how to design conversational flow, and methods for testing before and after deployment. A final chapter speculates on how voice technology might develop in the future, addressing societal issues such as inclusion and democratization. The book is peppered with references to relevant readings and concludes with a comprehensive list of useful resources. Highly recommended!”</p>
             <cite><a href="https://www.ulster.ac.uk/staff/mf-mctear" target="_blank" rel="noopener noreferrer">Michael McTear</a>, Emeritus Professor, School of Computing, Ulster University, co-author of <em>The Conversational Interface</em> and author of <em>Conversational AI</em></cite>
           </blockquote>
+          <p>Be the first to know when <em>Voice Content and Usability</em> is available. <Link to="/newsletter"><strong>Sign up for preorders</strong></Link></p>
         </>
       }
     />
