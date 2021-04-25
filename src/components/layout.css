@@ -38,6 +38,28 @@ p, ul, ol {
   margin: 0;
 }
 
+blockquote {
+  margin-bottom: 2.5rem;
+}
+
+blockquote p {
+  background-color: rgba(0,0,55,0.05);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-indent: -0.33em;
+}
+
+blockquote cite {
+  font-family: 'basic-sans', 'Droid Sans', sans-serif;
+  padding: 0 1rem;
+  display: block;
+  text-align: right;
+}
+
+blockquote cite em {
+  font-style: normal;
+}
+
 img {
   max-width: 100%;
 }
@@ -286,7 +308,6 @@ nav ul li a:hover,  nav ul li a:active {
   margin-bottom: 1rem;
   line-height: 1.25em;
   font-size: 0.85em;
-  min-height: 10em;
 }
 
 .card__content__listing p small {
@@ -311,7 +332,7 @@ nav ul li a:hover,  nav ul li a:active {
 .card__feature__content.has-image {
   position: absolute;
   bottom: 0;
-  width: 20em;
+  width: auto;
   color: #fff;
 }
 
@@ -321,7 +342,6 @@ nav ul li a:hover,  nav ul li a:active {
 }
 
 .card__feature__listing {
-  columns: 2;
   margin-top: 4rem;
   line-height: 1.2em;
   clear: both;
@@ -342,12 +362,16 @@ nav ul li a:hover,  nav ul li a:active {
 
 .card__feature__listing ul {
   padding: 0;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 .card__feature__listing ul li {
   list-style: none;
   margin-bottom: 1rem;
+}
+
+.card__feature__listing ol {
+  margin: 1rem 0;
 }
 
 /**
@@ -612,7 +636,19 @@ footer h3 {
     min-height: 5rem;
   }
 
-  .card--speaking {
+  .card__feature__content.has-image {
+    width: 20em;
+  }
+
+  .card__feature__listing {
+    columns: 2;
+  }
+
+  .card__content__listing {
+    min-height: 10em;
+  }
+
+  .card--dark-violet {
     background-size: contain;
   }
 }
