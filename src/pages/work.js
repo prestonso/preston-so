@@ -13,7 +13,7 @@ const WorkPage = () => (
       type="intro"
       orientation="no"
       title="Work"
-      body={<p>I've worked with clients the world over on <strong>omnichannel content strategy</strong>, <strong>headless CMS architectures</strong>, and <strong>voice and immersive strategy</strong>. <Link to="/contact">Hire me!</Link></p>}
+      body={<p>I’ve worked with clients the world over on <strong>omnichannel content strategy</strong>, <strong>headless CMS architectures</strong>, and <strong>voice and immersive strategy</strong>. <Link to="/contact">Hire me!</Link></p>}
     />
     <Card
       type="light-blue"
@@ -46,7 +46,7 @@ const WorkPage = () => (
       type="dark-violet"
       orientation="left"
       title="I do talks, workshops, trainings, & seminars."
-      body={<p>In <Link to="/speaking/">dozens of events</Link> and keynotes in Portuguese, Spanish, and English, I've spoken to developer, executive, and youth audiences at events like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>. <Link to="/contact">Hire me to speak!</Link></p>}
+      body={<p>In <Link to="/speaking/">dozens of events</Link> and keynotes in Portuguese, Spanish, and English, I’ve spoken to developer, executive, and youth audiences on stages like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>. <Link to="/contact">Hire me to speak!</Link></p>}
       listing={
         <>
           <h3>Upcoming</h3>
