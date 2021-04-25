@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Card
       type="dark-sienna"
       orientation="left"
-      title="Can your content speak for itself?"
+      title="Does your content speak for itself?"
       titleLink="/books/voice-content"
       body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
       featureLink="https://preston.so/books/voice-content"
