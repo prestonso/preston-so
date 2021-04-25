@@ -11,7 +11,7 @@ const GatsbyPage = () => (
     <Card
       type="intro"
       orientation="no"
-      title={<em>Gatsby: The Definitive Guide</em>}
+      title="Gatsby: The Definitive Guide"
       body={<p>The first full book on Gatsby for developers ever to hit bookshelves.</p>}
     />
     <Card

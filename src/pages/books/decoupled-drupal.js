@@ -12,7 +12,7 @@ const DecoupledDrupalPage = () => (
     <Card
       type="intro"
       orientation="no"
-      title={<em>Decoupled Drupal in Practice</em>}
+      title="Decoupled Drupal in Practice"
       body={<p>The first comprehensive guide to decoupled Drupal across the stack.</p>}
     />
     <Card

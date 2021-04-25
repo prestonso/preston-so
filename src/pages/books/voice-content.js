@@ -12,7 +12,7 @@ const VoiceContentPage = () => (
     <Card
       type="intro"
       orientation="no"
-      title={<em>Voice Content and Usability</em>}
+      title="Voice Content and Usability"
       body={<p>The definitive book on voice content and A Book Apart’s first voice title.</p>}
     />
     <Card
