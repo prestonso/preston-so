@@ -13,12 +13,12 @@ const IndexPage = () => (
       type="intro"
       orientation="no"
       title="Hi! I’m Preston."
-      body={<p>I write, speak, and work on topics like <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>content architectures</strong>, and the <strong>future of content strategy</strong>.</p>}
+      body={<p>I write, speak, and work on <strong>omnichannel content</strong>, <strong>immersive experiences</strong>, <strong>voice content</strong>, <strong>content architectures</strong>, and the <strong>future of content strategy</strong>.</p>}
     />
     <Card
       type="dark-sienna"
       orientation="left"
-      title="Give content a voice."
+      title="Can your content speak for itself?"
       titleLink="/books/voice-content"
       body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
       featureLink="https://preston.so/books/voice-content"
@@ -30,7 +30,7 @@ const IndexPage = () => (
       orientation="right"
       title="I write books & more."
       titleLink="/writing"
-      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive guides to <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>.</p>}
+      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive books about <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>.</p>}
       listing={
         <>
           <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
