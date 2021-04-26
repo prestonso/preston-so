@@ -30,7 +30,7 @@ const BooksPage = () => (
       orientation="right"
       title="Gatsby, the right way."
       titleLink="/books/gatsby"
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>. <Link to="/books/gatsby" className="call-to-action--link">What’s in the book?</Link>}
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>. <Link to="/books/gatsby" className="call-to-action--link">What’s in the book?</Link></p>}
       featureLink="https://preston.so/books/gatsby"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}
