@@ -19,7 +19,7 @@ const VoiceContentPage = () => (
       type="dark-sienna"
       orientation="right"
       title="Give your content a voice of its own."
-      body={<p>Voice content enriches interactions with content, but it also poses vexing questions. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <Link to="/newsletter" className="call-to-action--link">Sign up for preorders</Link></p>}
+      body={<p>Voice content enriches how users interact with our copy, but it also poses vexing questions and dilemmas. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <Link to="/newsletter" className="call-to-action--link">Sign up for preorders</Link></p>}
       featureLink="https://preston.so/books/voice-content"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
