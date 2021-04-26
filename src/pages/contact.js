@@ -13,7 +13,7 @@ const ContactPage = () => (
       type="intro"
       orientation="no"
       title="Contact"
-      body={<p>Interested in hiring me for a <strong>talk</strong>, <strong>webinar</strong>, <strong>workshop</strong>, <strong>podcast</strong>, or <strong>article</strong>? Please contact me through the form below.</p>}
+      body={<p>Interested in hiring me for a <strong>project</strong>, <strong>contract</strong>, <strong>talk</strong>, <strong>webinar</strong>, <strong>training</strong>, <strong>workshop</strong>, <strong>podcast</strong>, or <strong>article</strong>? Please drop me a line below.</p>}
     />
     <Card
       type="main"
