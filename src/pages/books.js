@@ -30,7 +30,7 @@ const BooksPage = () => (
       orientation="right"
       title="Gatsby, the right way."
       titleLink="/books/gatsby"
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>. <Link to="/books/gatsby" className="call-to-action--link">More about this book</Link></p>}
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link>. <Link to="/books/gatsby" className="call-to-action--link">What’s in the book?</Link>}
       featureLink="https://preston.so/books/gatsby"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}
@@ -40,7 +40,7 @@ const BooksPage = () => (
       orientation="left"
       title="Decoupled Drupal, across the stack."
       titleLink="/books/decoupled-drupal"
-      body={<p>The comprehensive authority on decoupled Drupal, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link>. <Link to="/books/gatsby" className="call-to-action--link">More about this book</Link></p>}
+      body={<p>The comprehensive authority on decoupled Drupal, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link>. <Link to="/books/decoupled-drupal" className="call-to-action--link">What’s in the book?</Link></p>}
       featureLink="https://preston.so/books/decoupled-drupal"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal, <strong>available now</strong>.</p>}
