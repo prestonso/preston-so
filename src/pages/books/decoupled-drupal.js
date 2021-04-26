@@ -19,7 +19,7 @@ const DecoupledDrupalPage = () => (
       type="dark-gold book"
       orientation="left"
       title="Decoupled Drupal, across the stack."
-      body={<p>The comprehensive authority on decoupled Drupal, and a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><em>Decoupled Drupal in Practice</em></a>.</p>}
+      body={<p>The comprehensive authority on decoupled Drupal, and a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><em>Decoupled Drupal in Practice</em></a>. <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Available now</a></p>}
       featureLink="https://www.apress.com/gp/book/9781484240717"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal, <strong>available now</strong>.</p>}
@@ -29,7 +29,7 @@ const DecoupledDrupalPage = () => (
       orientation="right"
       title="What's in the book?"
       titleLink="/work"
-      body={<p><em>Decoupled Drupal in Practice</em> has everything you need to know to architect and implement decoupled Drupal projects. Get the full-stack finesse you need. <Link to="/writing/graphql-in-drupal-an-exclusive-excerpt-from-the-forthcoming-book-decoupled-drupal-in-practice">Read an excerpt</Link> or <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer">order now</a>.</p>}
+      body={<p><em>Decoupled Drupal in Practice</em> has everything you need to know to architect and implement decoupled Drupal projects. Get the full-stack finesse and expert knowledge you need. <Link to="/writing/graphql-in-drupal-an-exclusive-excerpt-from-the-forthcoming-book-decoupled-drupal-in-practice" className="call-to-action--link">Read an excerpt</Link></p>}
       listing={
         <>
           <h3>Part 1: Decoupled Drupal fundamentals</h3>
@@ -101,7 +101,7 @@ const DecoupledDrupalPage = () => (
             <p>“Covers pretty much everything you want to know about decoupled Drupal right now.”</p>
             <cite><a href="https://nickgs.com" target="_blank" rel="noopener noreferrer">Nick Selvaggio</a>, Director of IT at American Diagnostic</cite>
           </blockquote>
-          <p><em>Decoupled Drupal in Practice</em> is <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><strong>available now</strong></a>!</p>
+          <p className="call-to-action--block"><a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Available now</a></p>
         </>
       }
     />

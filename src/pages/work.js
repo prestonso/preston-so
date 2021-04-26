@@ -19,7 +19,7 @@ const WorkPage = () => (
       type="light-blue"
       orientation="right"
       title="I do voice content & immersive content."
-      body={<p>I provide <Link to="/contact">content strategy support and architectural consulting</Link> on content-driven voice and immersive experiences. Past voice work includes <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>.</p>}
+      body={<p>I provide <Link to="/contact">content strategy support and architectural consulting</Link> on content-driven voice and immersive experiences. Past voice work includes <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
       featureTitle="Alexa, ask GeorgiaGov"
       featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
@@ -28,7 +28,7 @@ const WorkPage = () => (
       type="dark-gold"
       orientation="left"
       title="I do headless CMS and web architecture."
-      body={<p>I offer <Link to="/contact">expert guidance and architectural support</Link> for teams working on headless CMS, universal JavaScript, and Jamstack projects in an advisory and coaching capacity. Clients include <a href="https://genero.jp/" target="_blank" rel="noopener noreferrer">Genero</a>.</p>}
+      body={<p>I offer <Link to="/contact">expert guidance and architectural support</Link> for teams working on headless CMS, universal JavaScript, and Jamstack projects in an advisory and coaching capacity. Clients include <a href="https://genero.jp/" target="_blank" rel="noopener noreferrer">Genero</a>. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       featureLink="https://thecrimson.com/"
       featureTitle="The Harvard Crimson"
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
@@ -37,7 +37,7 @@ const WorkPage = () => (
       type="light-teal"
       orientation="right"
       title="I do written thought leadership."
-      body={<p>I direct <Link to="/contact">content marketing and product positioning strategies</Link> with well-positioned articles and treatises that support your business. Clients include <a href="https://srijan.net" target="_blank" rel="noopener noreferrer">Srijan</a> and <a href="https://tag1consulting.com" target="_blank" rel="noopener noreferrer">Tag1 Consulting</a>.</p>}
+      body={<p>I direct <Link to="/contact">content marketing and product positioning strategies</Link> with well-positioned articles and treatises that support your business. Clients include <a href="https://srijan.net" target="_blank" rel="noopener noreferrer">Srijan</a> and <a href="https://tag1consulting.com" target="_blank" rel="noopener noreferrer">Tag1 Consulting</a>. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       featureLink="https://preston.so/books/decoupled-drupal"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal across the stack.</p>}
@@ -46,7 +46,7 @@ const WorkPage = () => (
       type="dark-violet"
       orientation="left"
       title="I do talks, workshops, trainings, & seminars."
-      body={<p>In <Link to="/speaking/">dozens of events</Link> and keynotes in Portuguese, Spanish, and English, I’ve spoken to developer, executive, and youth audiences on stages like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>. <Link to="/contact">Hire me to speak!</Link></p>}
+      body={<p>In <Link to="/speaking/">dozens of events</Link> and keynotes in Portuguese, Spanish, and English, I’ve spoken to developer, executive, and youth audiences on stages like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       listing={
         <>
           <h3>Upcoming</h3>
@@ -97,7 +97,7 @@ const WorkPage = () => (
       type="light-navy"
       orientation="right"
       title="I do meaningful work."
-      body={<p>I believe in doing good work that makes an impact and gives back. I contribute to non-profit and open-source efforts and advocate equity and accessibility in all projects. <Link to="/contact">Work with me!</Link></p>}
+      body={<p>I believe in doing good work that makes an impact and gives back. I contribute to non-profit and open-source efforts and advocate equity and accessibility in all projects. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       listing={
         <>
           <h3>Authored</h3>

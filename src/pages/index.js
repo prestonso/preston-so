@@ -20,7 +20,7 @@ const IndexPage = () => (
       orientation="left"
       title="Does your content speak for itself?"
       titleLink="/books/voice-content"
-      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/newsletter">Sign up for preorders</Link>.</p>}
+      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Give your copy a voice and don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/newsletter" className="call-to-action--link">Sign up for preorders</Link></p>}
       featureLink="https://preston.so/books/voice-content"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
@@ -30,7 +30,7 @@ const IndexPage = () => (
       orientation="right"
       title="I write books & more."
       titleLink="/writing"
-      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive books about <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>.</p>}
+      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive books about <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>. <Link to="/writing" className="call-to-action--link">Read my articles</Link></p>}
       listing={
         <>
           <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
@@ -69,7 +69,7 @@ const IndexPage = () => (
       orientation="left"
       title="I’m available for hire."
       titleLink="/work"
-      body={<p>Since 2004, <Link to="/work">I’ve consulted</Link> on CMS architectures, digital experiences, and marketing for clients in India, Japan, and the U.S., with work in headless CMS, web and voice, and content strategy.</p>}
+      body={<p>Since 2004, <Link to="/work">I’ve consulted</Link> on CMS architectures, digital experiences, and marketing for clients in India, Japan, and the U.S., with work in headless CMS, web and voice, and content strategy. <Link to="/work" className="call-to-action--link">See my work</Link></p>}
       featureLink="https://thecrimson.com/"
       featureTitle="The Harvard Crimson"
       featureBody={<p>The first student-designed responsive college newspaper site in the Ivy League.</p>}
@@ -79,7 +79,7 @@ const IndexPage = () => (
       orientation="right"
       title="I ran an innovation lab."
       titleLink="/work"
-      body={<p>I led <a href="https://dri.es/think-beyond-with-acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, which built groundbreaking voice projects for the <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>, and product, design, and engineering teams at Time Inc., Acquia, and Gatsby.</p>}
+      body={<p>I led <a href="https://dri.es/think-beyond-with-acquia-labs" target="_blank" rel="noopener noreferrer">Acquia Labs</a>, which built groundbreaking voice projects for the <a href="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516" target="_blank" rel="noopener noreferrer">State of Georgia</a> and <a href="https://www.acquia.com/blog/voice-enabled-search-action-nestle-purina-and-acquia-labs" target="_blank" rel="noopener noreferrer">Nestlé Purina</a>, and product, design, and engineering teams at Time Inc., Acquia, and Gatsby. <Link to="/about" className="call-to-action--link">Read about me</Link></p>}
       featureLink="https://www.acquia.com/blog/ask-georgiagov-alexa-skill-citizens-georgia-acquia-labs/12/10/2017/3312516"
       featureTitle="Alexa, ask GeorgiaGov"
       featureBody={<p>Ask GeorgiaGov is the first-ever Alexa skill for citizens of the state of Georgia.</p>}
@@ -89,7 +89,7 @@ const IndexPage = () => (
       orientation="left"
       title="I talk shop worldwide."
       titleLink="/speaking"
-      body={<p>I’ve been a speaker since 2008 at <Link to="/speaking/">dozens of conferences</Link>, like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>, in three languages. If you’d like me to speak at your event or your company, <Link to="/contact/">I’d love to hear from you</Link>.</p>}
+      body={<p>I’ve been a speaker since 2008 at <Link to="/speaking/">dozens of conferences</Link>, like SXSW and <a href="https://aneventapart.com/speakers/preston-so" target="_blank" rel="noopener noreferrer">An Event Apart</a>, in three languages. If you’d like me to speak at your event or your company, <Link to="/contact/">I’d love to hear from you</Link>. <Link to="/speaking" className="call-to-action--link">See my talks</Link></p>}
       listing={
         <>
           <h3>Upcoming</h3>
@@ -141,7 +141,7 @@ const IndexPage = () => (
       orientation="right"
       title="I work on open source."
       titleLink="/work"
-      body={<p>I wrote the first version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to Drupal's <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York.</p>}
+      body={<p>I wrote the first version of <a href="https://github.com/acquia/waterwheel.js" target="_blank" rel="noopener noreferrer">Waterwheel.js</a>, led the release of <a href="https://github.com/acquia/reservoir" target="_blank" rel="noopener noreferrer">Reservoir</a>, and contributed to Drupal's <a href="https://www.drupal.org/project/spark" target="_blank" rel="noopener noreferrer">Spark</a> initiative. I also organize <a href="https://decoupleddays.com" target="_blank" rel="noopener noreferrer">Decoupled Days</a>, an annual non-profit conference in New York. <Link to="/contact" className="call-to-action--link">Work with me</Link></p>}
       listing={
         <>
           <h3>Authored</h3>
