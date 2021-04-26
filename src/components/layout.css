@@ -135,6 +135,28 @@ form input[type="reset"] {
   text-decoration: underline;
 }
 
+a.call-to-action--link {
+  display: table;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  margin-top: 1.5rem;
+  clear: both;
+  color: #fff;
+  border-radius: 1.5rem;
+  transition: background-color 0.3s;
+  font-family: 'basic-sans', 'Droid Sans', sans-serif;
+}
+
+.call-to-action--block a.call-to-action--link {
+  margin: 1.5rem auto 0;
+}
+
+a.call-to-action--link:hover,
+a.call-to-action--link:active {
+  background-color: rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
 /**
  * Header
  */
@@ -288,6 +310,10 @@ nav ul li a:hover,  nav ul li a:active {
   z-index: 2;
 }
 
+.card__content a.call-to-action--link {
+  color: #fff;
+}
+
 .card__content__listing h4, .card__content__listing p {
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
   font-weight: normal;
@@ -430,37 +456,18 @@ nav ul li a:hover,  nav ul li a:active {
   background: #e4e4e4 url('../images/card-light-blue.png') repeat fixed;
 }
 
-.card--light-blue h2,
-.card--light-blue a {
-  color: rgb(73,163,206);
-}
-
-.card--light-blue .card__container {
-  background-color: rgba(73,163,206,0.25);
-}
-
-.card--light-blue .card__feature {
-  background: transparent url('../images/card-labs-feature-ask-georgiagov.png') no-repeat bottom left;
-  background-size: contain;
-  min-height: 30em;
-}
-
-.card--light-blue.book .card__feature {
-  background: transparent url('../images/card-books-feature-gatsby.png') no-repeat top left;
-  background-size: contain;
-}
-
-.card--light-blue .card__feature__content {
-  color: #e4e4e4;
-}
-
-.card--light-blue.book .card__feature__content {
-  color: #000;
-}
-
 .card--main h2,
 .card--main a {
   color: #21648b;
+}
+
+.card--main a.call-to-action--link {
+  background-color: rgba(33,100,139,0.75);
+}
+
+.card--main a.call-to-action--link:hover,
+.card--main a.call-to-action--link:active {
+  background-color: rgb(33,100,139);
 }
 
 .card--main .card__content h2,
@@ -484,6 +491,43 @@ nav ul li a:hover,  nav ul li a:active {
   margin: 0;
 }
 
+.card--light-blue h2,
+.card--light-blue a {
+  color: rgb(63,153,196);
+}
+
+.card--light-blue a.call-to-action--link {
+  background-color: rgba(63,153,196,0.75);
+}
+
+.card--light-blue a.call-to-action--link:hover,
+.card--light-blue a.call-to-action--link:active {
+  background-color: rgb(63,153,196);
+}
+
+.card--light-blue .card__container {
+  background-color: rgba(63,153,196,0.25);
+}
+
+.card--light-blue .card__feature {
+  background: transparent url('../images/card-labs-feature-ask-georgiagov.png') no-repeat bottom left;
+  background-size: contain;
+  min-height: 30em;
+}
+
+.card--light-blue.book .card__feature {
+  background: transparent url('../images/card-books-feature-gatsby.png') no-repeat top left;
+  background-size: contain;
+}
+
+.card--light-blue .card__feature__content {
+  color: #e4e4e4;
+}
+
+.card--light-blue.book .card__feature__content {
+  color: #000;
+}
+
 .card--dark-sienna {
   background: #232323 url('../images/card-dark-sienna.png') repeat fixed;
 }
@@ -491,6 +535,15 @@ nav ul li a:hover,  nav ul li a:active {
 .card--dark-sienna h2,
 .card--dark-sienna a {
   color: rgb(161,43,42);
+}
+
+.card--dark-sienna a.call-to-action--link {
+  background-color: rgba(161,43,42,0.75);
+}
+
+.card--dark-sienna a.call-to-action--link:hover,
+.card--dark-sienna a.call-to-action--link:active {
+  background-color: rgb(161,43,42);
 }
 
 .card--dark-sienna .card__container {
@@ -507,18 +560,26 @@ nav ul li a:hover,  nav ul li a:active {
   color: rgb(255,160,160);
 }
 
-
 .card--dark-gold {
   background: #232323 url('../images/card-dark-gold.png') repeat fixed;
 }
 
 .card--dark-gold h2,
 .card--dark-gold a {
-  color: rgb(205,155,35);
+  color: rgb(175,125,5);
+}
+
+.card--dark-gold a.call-to-action--link {
+  background-color: rgba(175,125,5,0.75);
+}
+
+.card--dark-gold a.call-to-action--link:hover,
+.card--dark-gold a.call-to-action--link:active {
+  background-color: rgb(175,125,5);
 }
 
 .card--dark-gold .card__container {
-  background-color: rgba(205,155,35,0.25);
+  background-color: rgba(175,125,5,0.25);
 }
 
 .card--dark-gold .card__feature {
@@ -540,6 +601,15 @@ nav ul li a:hover,  nav ul li a:active {
 .card--light-teal ul li a,
 .card--light-teal p a {
   color: rgb(39,95,95);
+}
+
+.card--light-teal a.call-to-action--link {
+  background-color: rgba(39,95,95,0.75);
+}
+
+.card--light-teal a.call-to-action--link:hover,
+.card--light-teal a.call-to-action--link:active {
+  background-color: rgb(39,95,95);
 }
 
 .card--light-teal .card__container {
@@ -570,6 +640,15 @@ nav ul li a:hover,  nav ul li a:active {
   color: rgb(134,63,100);
 }
 
+.card--dark-violet a.call-to-action--link {
+  background-color: rgba(134,63,100,0.75);
+}
+
+.card--dark-violet a.call-to-action--link:hover,
+.card--dark-violet a.call-to-action--link:active {
+  background-color: rgb(134,63,100);
+}
+
 .card--dark-violet .card__container {
   background-color: rgba(254,183,220,0.9);
 }
@@ -581,6 +660,15 @@ nav ul li a:hover,  nav ul li a:active {
 .card--light-navy h2,
 .card--light-navy a {
   color: rgb(33,100,139);
+}
+
+.card--light-navy a.call-to-action--link {
+  background-color: rgba(33,100,139,0.75);
+}
+
+.card--light-navy a.call-to-action--link:hover,
+.card--light-navy a.call-to-action--link:active {
+  background-color: rgb(33,100,139);
 }
 
 .card--light-navy .card__container {

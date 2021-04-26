@@ -13,7 +13,7 @@ const BooksPage = () => (
       type="intro"
       orientation="no"
       title="Books"
-      body={<p>My books cover <strong>content strategy</strong> and <strong>content architectures</strong>, including the authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
+      body={<p>My books cover <strong>content strategy</strong> and <strong>content architectures</strong> and include the authoritative titles on <Link to="/books/voice-content"><strong>voice content</strong></Link>, <Link to="/books/gatsby"><strong>Gatsby</strong></Link>, and <Link to="/books/decoupled-drupal"><strong>decoupled Drupal</strong></Link>.</p>}
     />
     <Card
       type="dark-sienna"
