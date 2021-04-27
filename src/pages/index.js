@@ -1,12 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Card from "../components/card"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Preston So" keywords={[`Preston So`, `preston.so`, `prestonso`, `developer`, `product manager`, `developer advocate`]} />
     <Card
@@ -35,10 +35,12 @@ const IndexPage = () => (
         <>
           <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
           <ul>
-            <li>
-              <h4><a href="https://preston.so/writing/no-persona-left-behind-the-emerging-schism-in-content-management-systems" target="_blank" rel="noopener noreferrer">No persona left behind: The emerging schism in content management systems</a></h4>
-              <p>April 29, 2020</p>
-            </li>
+            {data.allContentfulArticle.edges.map(({ node }) => (
+              <li>
+                <h4><Link to={`/writing/${node.slug}`}>{node.title}</Link></h4>
+                <p>{node.originalPublicationDate}</p>
+              </li>
+            ))}
           </ul>
           <h3>For <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a></h3>
           <ul>
@@ -168,5 +170,25 @@ const IndexPage = () => (
     />
   </Layout>
 )
+
+export const query = graphql`
+  {
+    allContentfulArticle(
+      sort: {
+        fields: [originalPublicationDate],
+        order: DESC
+      },
+      limit: 1
+    ) {
+      edges {
+        node {
+          title
+          slug
+          originalPublicationDate(formatString: "MMMM D, YYYY")
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
