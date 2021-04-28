@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
         <li><Link to="/writing/" activeClassName="active" partiallyActive={true}>Writing</Link></li>
         <li><Link to="/speaking/" activeClassName="active">Speaking</Link></li>
         <li><Link to="/work/" activeClassName="active">Work</Link></li>
-        <li><Link to="/press/" activeClassName="active">Press</Link></li>
         <li><Link to="/about/" activeClassName="active">About</Link></li>
+        <li><Link to="/press/" activeClassName="active">Press</Link></li>
         <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
       </ul>
     </nav>
