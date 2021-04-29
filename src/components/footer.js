@@ -4,6 +4,10 @@ import { Location } from "@reach/router"
 
 import Card from "../components/card"
 
+import generoLogo from "../images/partner-genero.png"
+import srijanLogo from "../images/partner-srijan.png"
+import tag1Logo from "../images/partner-tag1.png"
+
 let date = new Date();
 
 const Footer = (props) => (
@@ -44,6 +48,28 @@ const Footer = (props) => (
       }
     }
     </Location>
+    <div className="prefooter">
+      <div className="prefooter__container">
+        <h3>Trusted by</h3>
+        <ul>
+          <li>
+            <a href="https://genero.jp" target="_blank" rel="noopener noreferrer">
+              <img src={generoLogo} alt="Genero" />
+            </a>
+          </li>
+          <li>
+            <a href="https://srijan.net" target="_blank" rel="noopener noreferrer">
+              <img src={srijanLogo} alt="Srijan" />
+            </a>
+          </li>
+          <li>
+            <a href="https://tag1consulting.com" target="_blank" rel="noopener noreferrer">
+              <img src={tag1Logo} alt="Tag1 Consulting" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <footer>
       <div className="footer__container">
         <h3>Thanks for stopping by.</h3>

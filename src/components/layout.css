@@ -678,6 +678,40 @@ nav ul li a:hover,  nav ul li a:active {
 /**
  * Footer
  */
+
+.prefooter {
+  clear: both;
+  padding: 1rem 1.5rem;
+  background-color: rgba(255,255,255,0.1);
+  zoom: 1;
+}
+
+.prefooter:before,
+.prefooter:after {
+  content: " ";
+  display: table;
+}
+
+.prefooter:after {
+  clear: both;
+}
+
+.prefooter__container {
+  padding: 1rem;
+}
+
+.prefooter h3 {
+  text-transform: uppercase;
+  color: #cdcdcd;
+  font-family: 'basic-sans', 'Droid Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.prefooter ul li {
+  display: inline-block;
+}
+
 footer {
   background: #232323 url('../images/header.png') repeat fixed;
   font-family: 'basic-sans', 'Droid Sans', sans-serif;
