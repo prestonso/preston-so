@@ -708,8 +708,29 @@ nav ul li a:hover,  nav ul li a:active {
   text-align: center;
 }
 
+.prefooter ul {
+  padding: 0;
+}
+
 .prefooter ul li {
-  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.prefooter ul li a {
+  opacity: 0.75;
+  transition: opacity 0.3s;
+  text-align: center;
+}
+
+.prefooter ul li a:hover,
+.prefooter ul li a:active {
+  opacity: 1;
+}
+
+.prefooter ul li a img {
+  width: auto;
 }
 
 footer {
@@ -885,6 +906,18 @@ footer h3 {
     width: 65%;
     float: left;
     margin-left: -2rem;
+  }
+
+  .prefooter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prefooter ul li {
+    display: inline-block;
+    width: 15rem;
+    text-align: center;
   }
 
   .footer__container {
