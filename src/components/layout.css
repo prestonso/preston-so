@@ -795,6 +795,13 @@ footer h3 {
 
 @media all and (max-width: 67em) {
 
+  body,
+  header,
+  .card,
+  footer {
+    background-attachment: scroll;
+  }
+
   img {
     width: 100%;
   }
