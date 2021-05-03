@@ -65,7 +65,7 @@ const VoiceContentPage = () => (
             <li>
               <h3>Chapter 4</h3>
               <h4>Diagramming flows</h4>
-              <p>Deliver voice content in discoverable ways by leveragaing aural, not visual, approaches to wayfinding rooted in habitable and linear flows.</p>
+              <p>Deliver voice content in discoverable ways by leveraging aural, not visual, approaches to wayfinding rooted in habitable and linear flows.</p>
             </li>
             <li>
               <h3>Chapter 5</h3>
