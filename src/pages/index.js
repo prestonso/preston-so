@@ -45,8 +45,8 @@ const IndexPage = ({ data }) => (
           <h3>For <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a></h3>
           <ul>
             <li>
-              <h4><a href="https://alistapart.com/article/usability-testing-for-voice-content/">Usability testing for voice content</a></h4>
-              <p>April 9, 2020</p>
+              <h4><a href="https://alistapart.com/article/immersive-content-strategy/">Immersive content strategy</a></h4>
+              <p>April 29, 2021</p>
             </li>
           </ul>
           <h3>For <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a></h3>
