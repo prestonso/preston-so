@@ -100,7 +100,7 @@ const VoiceContentPage = () => (
             <cite><a href="https://aaron-gustafson.com" target="_blank" rel="noopener noreferrer">Aaron Gustafson</a>, Author, <em>Adaptive Web Design</em></cite>
           </blockquote>
           <blockquote>
-            <p>“I've always admired Preston’s ability to fly high and when needed dive into the weeds. This book takes us through the high altitudes of understanding and planning for voice interfaces and a deep dive into the intricacies of content and technical implementation. An all-round view of the future of interactions and how we can design them to be fair and effective.”</p>
+            <p>“I’ve always admired Preston’s ability to both fly high and dive into the weeds when needed. This book soars through the upper altitudes of understanding and planning for voice interfaces, while also peering deep into the intricacies of content and technical implementation—a full view of the future of spoken digital interactions and how we can design them to be fair and effective.”</p>
             <cite><a href="https://digitalservices.georgia.gov/nikhil-deshpande" target="_blank" rel="noopener noreferrer">Nikhil Deshpande</a>, Chief Digital Officer of the State of Georgia</cite>
           </blockquote>
           <blockquote>
