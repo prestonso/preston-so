@@ -67,15 +67,14 @@ img {
 pre {
   display: inline;
   line-height: 1em;
-  font-family: 'interstate-mono', monospace;
 }
 
 pre code {
   display: inline;
   padding: 0 0.5rem;
-  line-height: 1em;
   background-color: #eee;
   border-radius: 0.25em;
+  font: 0.925em/1em 'interstate-mono', monospace;
 }
 
 p > pre:only-child code {
