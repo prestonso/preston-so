@@ -67,6 +67,7 @@ img {
 pre {
   display: inline;
   line-height: 1em;
+  font-family: 'interstate-mono', monospace;
 }
 
 pre code {
