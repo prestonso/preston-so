@@ -418,6 +418,11 @@ nav ul li a:hover,  nav ul li a:active {
   border: 0;
 }
 
+.card--intro .card__content a,
+.card--outro .card__content a {
+  color: #00466f;
+}
+
 .card--intro .card__content h2,
 .card--outro .card__content h2 {
   color: #fff;
