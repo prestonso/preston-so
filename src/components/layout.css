@@ -83,6 +83,7 @@ p > pre:only-child code {
   max-width: 100%;
   white-space: pre-wrap;
   word-wrap: break-word;
+  padding: 0.5rem;
 }
 
 hr {
