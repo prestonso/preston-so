@@ -20,8 +20,8 @@ const IndexPage = ({ data }) => (
       orientation="left"
       title="Does your content speak for itself?"
       titleLink="/books/voice-content"
-      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Give your copy a voice and don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <Link to="/books/voice-content" className="call-to-action--link">What’s in the book?</Link></p>}
-      featureLink="https://preston.so/books/voice-content"
+      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Give your copy a voice and don’t get left behind with <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link>, my new A Book Apart book. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" className="call-to-action--link">Preorder now</a></p>}
+      featureLink="https://abookapart.com/products/voice-content-and-usability"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
     />
