@@ -20,7 +20,7 @@ const BooksPage = () => (
       orientation="left"
       title="Voice content for all."
       titleLink="/books/voice-content"
-      body={<p>How can we make our web-biased content ready for voice? How does voice scramble our design and content strategy? Find out in my new A Book Apart book, <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer"><em>Voice Content and Usability</em></a>. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>How can we make our web-biased content ready for voice? How does voice scramble our design and content strategy? Find out in my new A Book Apart book, <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Voice Content and Usability</em></a>. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
       featureLink="https://abookapart.com/products/voice-content-and-usability"
       featureTitle={<em>Voice Content and Usability</em>}
       featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
