@@ -52,8 +52,8 @@ const IndexPage = ({ data }) => (
           <h3>For <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a></h3>
           <ul>
             <li>
-              <h4><a href="https://www.cmswire.com/digital-experience/how-the-move-from-web-cms-to-dxp-is-fraying-key-social-contracts/">How the move from web CMS to DXP is fraying key social contracts</a></h4>
-              <p>February 9, 2021</p>
+              <h4><a href="https://www.cmswire.com/digital-experience/why-the-future-lies-in-digital-experience-orchestration-not-management/">Why the future lies in digital experience orchestration, not management</a></h4>
+              <p>May 18, 2021</p>
             </li>
           </ul>
           <h3>For <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a></h3>
