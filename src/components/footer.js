@@ -21,7 +21,7 @@ const Footer = (props) => (
             title="Before you go ..."
             body={
               <>
-                <p><strong>Subscribe to my occasional newsletter.</strong> No spam. Just resources and exclusive ideas about omnichannel content and more. Also, <strong>be the first to know</strong> when my new book <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer"><em>Voice Content and Usability</em></a> is launched.</p>
+                <p><strong>Subscribe to my occasional newsletter.</strong> No spam. Just resources and exclusive ideas about omnichannel content and more. Also, <strong>be the first to know</strong> when my new book <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Voice Content and Usability</em></a> is launched.</p>
                 <form
                   name="newsletter"
                   method="post"
