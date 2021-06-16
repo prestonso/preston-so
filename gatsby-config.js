@@ -65,6 +65,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: contentfulConfig,
     },
+    // Using GatsbyPrestonSoPreview channel
     {
       resolve: `gatsby-source-cec`,
       options: {
