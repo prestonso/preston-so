@@ -20,10 +20,10 @@ const IndexPage = ({ data }) => (
       orientation="left"
       title="Does your content speak for itself?"
       titleLink="/books/voice-content"
-      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Give your copy a voice and don’t get left behind with <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Voice Content and Usability</em></a>, my new A Book Apart book. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>Voice is fast becoming an urgent baseline for future-proof yet accessible content. Give your copy a voice and don’t get left behind with <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Voice Content and Usability</em></a>, my new A Book Apart book. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://abookapart.com/products/voice-content-and-usability"
       featureTitle={<em>Voice Content and Usability</em>}
-      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
+      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, <strong>available now</strong>.</p>}
     />
     <Card
       type="light-teal"

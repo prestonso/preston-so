@@ -19,10 +19,10 @@ const VoiceContentPage = () => (
       type="dark-sienna"
       orientation="right"
       title="Give your content a voice of its own."
-      body={<p>Voice content enriches how users interact with our copy, but it also poses vexing questions and dilemmas. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>Voice content enriches how users interact with our copy, but it also poses vexing questions and dilemmas. Get the answers from A Book Apart’s first voice title, <em>Voice Content and Usability</em>. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://abookapart.com/products/voice-content-and-usability"
       featureTitle={<em>Voice Content and Usability</em>}
-      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, coming <strong>June 22nd</strong>.</p>}
+      featureBody={<p>The only book on voice content, and A Book Apart’s first voice title, <strong>available now</strong>.</p>}
     />
     <Card
       type="main"
@@ -35,7 +35,7 @@ const VoiceContentPage = () => (
           <p>The ongoing technological “quickening” and accelerating demands for multichannel convenience are upending all the old paradigms we used to hold dear: links and sitemaps, navbars and breadcrumbs, calls to action and clicks to subscribe. When all your users have in front of them is a smart speaker without a screen, where do you even begin when it comes to design, content strategy, and accessibility?</p>
           <p><em>Voice Content and Usability</em> will give you the techniques and insights you need to make voice content a tangible—and talkable—reality. Learn from the real-world example of Ask GeorgiaGov, the first-ever Alexa skill for residents of the state of Georgia and one of the earliest content-driven voice interfaces. Whether you’ve never thought about voice interfaces before or you’re knee-deep in an ongoing voice project, join me as we move away from screens and scrollbars and into the realm of sound and speech.</p>
           <p>But don’t take my word for it. By the end, your content will speak for itself.</p>
-          <p className="call-to-action--block"><a href="https://abookapart.com/products/voice-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Preorder now</a></p>
+          <p className="call-to-action--block"><a href="https://abookapart.com/products/voice-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Buy now</a></p>
         </>
       }
     />
@@ -43,7 +43,7 @@ const VoiceContentPage = () => (
       type="light-navy"
       orientation="left"
       title="What's in the book?"
-      body={<p>With a foreword by Erika Hall, <em>Voice Content and Usability</em> equips you to create compelling voice content, situate it in dialogues and flows, and prepare it to go live. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>With a foreword by Erika Hall, <em>Voice Content and Usability</em> equips you to create compelling voice content, situate it in dialogues and flows, and prepare it to go live. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Buy now</a></p>}
       listing={
         <>
           <ul>
@@ -107,7 +107,7 @@ const VoiceContentPage = () => (
             <p>“Preston So brings conversational systems to life with real-world Alexa skill examples and practical advice for designers of voice interfaces. Learn how to transform web-based content into voice-based content, how to design conversational flow, and how to test before and after deployment. Highly recommended!”</p>
             <cite><a href="https://www.ulster.ac.uk/staff/mf-mctear" target="_blank" rel="noopener noreferrer">Michael McTear</a>, Emeritus Professor, School of Computing, Ulster University, co-author of <em>The Conversational Interface</em> and author of <em>Conversational AI</em></cite>
           </blockquote>
-          <p className="call-to-action--block"><a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>
+          <p className="call-to-action--block"><a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>
         </>
       }
     />
