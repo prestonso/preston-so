@@ -21,9 +21,9 @@ const Header = ({ siteTitle }) => (
       </ul>
     </nav>
     <div className="header__language-selector">
-      <p><a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank"><strong><em>Voice Content and Usability</em></strong></a> is the first-ever, definitive book on voice content from A Book Apart, available now.</p>
+      <p><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank"><strong><em>Gatsby: The Definitive Guide</em></strong></a> is the first authoritative guide to building with Gatsby, available now.</p>
       <ul>
-        <li><a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank">Buy now</a></li>
+        <li><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank">Buy now</a></li>
       </ul>
     </div>
   </header>

@@ -18,16 +18,16 @@ const GatsbyPage = () => (
       type="light-blue book"
       orientation="left"
       title="Gatsby, the right way."
-      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a>. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Get early access</a></p>}
+      body={<p>Everything you need to know about the Gatsby framework, from starters to source plugins, from static queries to schema customization, is in this O’Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a>. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
-      featureBody={<p>The first authoritative book on developing sites with Gatsby, coming <strong>November 2021</strong>.</p>}
+      featureBody={<p>The first authoritative book on developing sites with Gatsby, <strong>available now</strong>.</p>}
     />
     <Card
       type="light-navy"
       orientation="right"
       title="What's in the book?"
-      body={<p><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a> is your end-to-end teacher for Gatsby and the Jamstack, with full coverage to get you up and running quickly and all set for advanced requirements. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Get early access</a></p>}
+      body={<p><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer"><em>Gatsby: The Definitive Guide</em></a> is your end-to-end teacher for Gatsby and the Jamstack, with full coverage to get you up and running quickly and all set for advanced requirements. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Buy now</a></p>}
       listing={
         <>
           <h3>Part 1: Elementary Gatsby</h3>
