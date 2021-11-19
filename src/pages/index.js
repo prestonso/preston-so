@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => (
       orientation="right"
       title="Gatsby for everyone."
       titleLink="/books/gatsby"
-      body={<p>Learn everything you need to know about building blazing-fast sites with the Gatsby framework and Jamstack architectures thanks to the new O’Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank"><em>Gatsby: The Definitive Guide</em></a>. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
+      body={<p>Learn everything you need to know to build blazing-fast sites with the Gatsby framework and Jamstack architectures thanks to the new O’Reilly book, <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank"><em>Gatsby: The Definitive Guide</em></a>. <a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/"
       featureTitle={<em>Gatsby: The Definitive Guide</em>}
       featureBody={<p>The first authoritative book on developing sites with Gatsby, <strong>available now</strong>.</p>}
