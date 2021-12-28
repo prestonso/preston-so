@@ -107,41 +107,42 @@ const IndexPage = ({ data }) => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://omnichannelx.digital/session/how-to-make-the-move-to-headless-cms-and-true-omnichannel/" target="_blank" rel="noopener noreferrer">How to make the move to headless CMS and true omnichannel</a></h4>
-              <p>OmnichannelX 2021</p>
+              <h4><a href="https://hub.dxsummit.com/2021/session/390201/[panel-discussion]-getting-to-explainable-ai" target="_blank" rel="noopener noreferrer">Getting to explainable AI</a></h4>
+              <p>(with Karthik Kannan and Josh Reese)</p>
+              <p>DX Summit 2021</p>
               <p>Virtual</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
+              <h4><a href="https://aneventapart.com/event/fall-summit-2021" target="_blank" rel="noopener noreferrer">Elements heard, not seen: Moving from web design to voice design</a></h4>
+              <p>An Event Apart Fall Summit 2021</p>
+              <p>Virtual</p>
+            </li>
+            <li>
+              <h4><a href="https://omnichannelx.digital/session/how-to-make-the-move-to-headless-cms-and-true-omnichannel/" target="_blank" rel="noopener noreferrer">How to make the move to headless CMS and true omnichannel</a></h4>
+              <p>OmnichannelX 2021</p>
+              <p>Virtual</p>
+            </li>
+            <li>
               <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
-              <p>(with Nani Jansen Reventlow)</p>
               <p>DrupalCon North America 2021</p>
-              <p>Virtual</p>
-            </li>
-            <li>
-              <h4><a href="https://thedevconf.com/tdc/2020/recifeonline/trilha-stadium-quarta" target="_blank" rel="noopener noreferrer">O CMS distribuído e o futuro do gerenciamento de conteúdo</a></h4>
-              <p>TDC Recife 2020</p>
-              <p>Virtual</p>
-            </li>
-            <li>
-              <h4><a href="https://www.laouc.org/equipo/aplicaciones-multiplataformas-con-cx-content-y-flutter/" target="_blank" rel="noopener noreferrer">Aplicaciones multiplataformas con CX Content y Flutter</a></h4>
-              <p>Oracle Groundbreakers Latin America 2020</p>
+              <p>(with Nani Jansen Reventlow)</p>
               <p>Virtual</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
           <ul>
             <li>
-              <h4><a href="https://2020.drupalmanila.org/session/keynote" target="_blank" rel="noopener noreferrer">A new grand compromise in content management</a></h4>
-              <p>DrupalCamp Manila 2020</p>
+              <h4><a href="https://www.buttonconf.com/2021-program/giving-your-content-a-voice-of-its-own" target="_blank" rel="noopener noreferrer">Giving your content a voice of its own</a></h4>
+              <p>Button 2021</p>
               <p>Virtual</p>
             </li>
             <li>
-              <h4><a href="https://events.apifirstcms.org/sessions/opening-of-keynote" target="_blank" rel="noopener noreferrer">The new CMS paradox</a></h4>
-              <p>API-first DrupalCamp Tokyo 2019</p>
-              <p>Tokyo</p>
+              <h4><a href="https://design4drupal.org/keynote" target="_blank" rel="noopener noreferrer">Voice content: Does your content speak for itself?</a></h4>
+              <p>Design for Drupal Boston 2021</p>
+              <p>Virtual</p>
             </li>
           </ul>
           <p><small>Photo credit: <a href="https://twitter.com/c_leverington" target="_blank" rel="noopener noreferrer">Charles Leverington</a></small></p>
