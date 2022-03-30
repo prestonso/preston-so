@@ -107,28 +107,27 @@ const IndexPage = ({ data }) => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://hub.dxsummit.com/2021/session/390201/[panel-discussion]-getting-to-explainable-ai" target="_blank" rel="noopener noreferrer">Getting to explainable AI</a></h4>
-              <p>(with Karthik Kannan and Josh Reese)</p>
-              <p>DX Summit 2021</p>
+              <h4><a href="https://aneventapart.com/event/spring-summit-2022#s32412" target="_blank" rel="noopener noreferrer">Beyond the screen: Immersive design for spaces</a></h4>
+              <p>An Event Apart Spring Summit 2022</p>
               <p>Virtual</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
-              <h4><a href="https://aneventapart.com/event/fall-summit-2021" target="_blank" rel="noopener noreferrer">Elements heard, not seen: Moving from web design to voice design</a></h4>
-              <p>An Event Apart Fall Summit 2021</p>
+              <h4><a href="https://www-cmswire.simplermedia.com/cw-wb-220330-brightspot-cx.html" target="_blank" rel="noopener noreferrer">Omnichannel content modeling for voice, immersive, and beyond</a></h4>
+              <p>CMSWire webinar</p>
+            </li>
+            <li>
+              <h4><a href="https://schedule.sxsw.com/2022/events/PP115406" target="_blank" rel="noopener noreferrer">Accessibility, inclusion, and equity beyond the web</a></h4>
+              <p>SXSW Interactive 2022</p>
+              <p>(with Nikhil Deshpande and Reginé Gilbert)</p>
               <p>Virtual</p>
             </li>
             <li>
-              <h4><a href="https://omnichannelx.digital/session/how-to-make-the-move-to-headless-cms-and-true-omnichannel/" target="_blank" rel="noopener noreferrer">How to make the move to headless CMS and true omnichannel</a></h4>
-              <p>OmnichannelX 2021</p>
-              <p>Virtual</p>
-            </li>
-            <li>
-              <h4><a href="https://events.drupal.org/northamerica2021/sessions/creating-systemic-change-digital-rights-all" target="_blank" rel="noopener noreferrer">Creating systemic change: Digital rights for all</a></h4>
-              <p>DrupalCon North America 2021</p>
-              <p>(with Nani Jansen Reventlow)</p>
+              <h4><a href="https://hub.dxsummit.com/2021/session/390201/[panel-discussion]-getting-to-explainable-ai?i=k2_-vkqpsFXH2NDn-jiA0PWwFbtsj8b9" target="_blank" rel="noopener noreferrer">Getting to explainable AI</a></h4>
+              <p>DX Summit 2021</p>
+              <p>(with Karthik Kannan and Josh Reese)</p>
               <p>Virtual</p>
             </li>
           </ul>
