@@ -122,7 +122,7 @@ const IndexPage = ({ data }) => (
               <h4><a href="https://schedule.sxsw.com/2022/events/PP115406" target="_blank" rel="noopener noreferrer">Accessibility, inclusion, and equity beyond the web</a></h4>
               <p>SXSW Interactive 2022</p>
               <p>(with Nikhil Deshpande and Reginé Gilbert)</p>
-              <p>Virtual</p>
+              <p>Austin</p>
             </li>
             <li>
               <h4><a href="https://hub.dxsummit.com/2021/session/390201/[panel-discussion]-getting-to-explainable-ai?i=k2_-vkqpsFXH2NDn-jiA0PWwFbtsj8b9" target="_blank" rel="noopener noreferrer">Getting to explainable AI</a></h4>
