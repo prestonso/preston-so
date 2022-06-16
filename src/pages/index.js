@@ -107,40 +107,38 @@ const IndexPage = ({ data }) => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://aneventapart.com/event/spring-summit-2022#s32412" target="_blank" rel="noopener noreferrer">Beyond the screen: Immersive design for spaces</a></h4>
-              <p>An Event Apart Spring Summit 2022</p>
+              <h4><a href="https://omnichannelx.digital/session/how-to-democratize-your-headless-cms/" target="_blank" rel="noopener noreferrer">How to democratize your headless CMS</a></h4>
+              <p>OmnichannelX 2022</p>
               <p>Virtual</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
+              <h4><a href="https://www.ux-lx.com/speakers/preston-so.html" target="_blank" rel="noopener noreferrer">Voice interface design and usability</a></h4>
+              <p>User Experience Lisbon 2022</p>
+              <p>Lisbon</p>
+            </li>
+            <li>
+              <h4><a href="https://aneventapart.com/event/spring-summit-2022#s32412" target="_blank" rel="noopener noreferrer">Beyond the screen: Immersive design for spaces</a></h4>
+              <p>An Event Apart Spring Summit 2022</p>
+              <p>Virtual</p>
+            </li>
+            <li>
               <h4><a href="https://www-cmswire.simplermedia.com/cw-wb-220330-brightspot-cx.html" target="_blank" rel="noopener noreferrer">Omnichannel content modeling for voice, immersive, and beyond</a></h4>
               <p>CMSWire webinar</p>
-            </li>
-            <li>
-              <h4><a href="https://schedule.sxsw.com/2022/events/PP115406" target="_blank" rel="noopener noreferrer">Accessibility, inclusion, and equity beyond the web</a></h4>
-              <p>SXSW Interactive 2022</p>
-              <p>(with Nikhil Deshpande and Reginé Gilbert)</p>
-              <p>Austin</p>
-            </li>
-            <li>
-              <h4><a href="https://hub.dxsummit.com/2021/session/390201/[panel-discussion]-getting-to-explainable-ai?i=k2_-vkqpsFXH2NDn-jiA0PWwFbtsj8b9" target="_blank" rel="noopener noreferrer">Getting to explainable AI</a></h4>
-              <p>DX Summit 2021</p>
-              <p>(with Karthik Kannan and Josh Reese)</p>
-              <p>Virtual</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
           <ul>
             <li>
-              <h4><a href="https://www.buttonconf.com/2021-program/giving-your-content-a-voice-of-its-own" target="_blank" rel="noopener noreferrer">Giving your content a voice of its own</a></h4>
-              <p>Button 2021</p>
-              <p>Virtual</p>
+              <h4><a href="https://drupaljam.nl/speakers/preston-so" target="_blank" rel="noopener noreferrer">Democratizing the headless CMS</a></h4>
+              <p>DrupalJam Utrecht 2022</p>
+              <p>Utrecht</p>
             </li>
             <li>
-              <h4><a href="https://design4drupal.org/keynote" target="_blank" rel="noopener noreferrer">Voice content: Does your content speak for itself?</a></h4>
-              <p>Design for Drupal Boston 2021</p>
+              <h4><a href="https://www.buttonconf.com/2021-program/giving-your-content-a-voice-of-its-own" target="_blank" rel="noopener noreferrer">Giving your content a voice of its own</a></h4>
+              <p>Button 2021</p>
               <p>Virtual</p>
             </li>
           </ul>
