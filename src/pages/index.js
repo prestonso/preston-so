@@ -107,26 +107,27 @@ const IndexPage = ({ data }) => (
           <h3>Upcoming</h3>
           <ul>
             <li>
-              <h4><a href="https://omnichannelx.digital/session/how-to-democratize-your-headless-cms/" target="_blank" rel="noopener noreferrer">How to democratize your headless CMS</a></h4>
-              <p>OmnichannelX 2022</p>
-              <p>Virtual</p>
+              <h4><a href="https://theeuropeanchatbot.com/wp-content/uploads/2023/02/Agenda-2023-33.pdf" target="_blank" rel="noopener noreferrer">Informational conversational interfaces and the role of voice content</a></h4>
+              <p>European Chatbot and Conversational AI Summit 2023</p>
+              <p>Edinburgh</p>
             </li>
           </ul>
           <h3>Latest</h3>
           <ul>
             <li>
-              <h4><a href="https://www.ux-lx.com/speakers/preston-so.html" target="_blank" rel="noopener noreferrer">Voice interface design and usability</a></h4>
-              <p>User Experience Lisbon 2022</p>
-              <p>Lisbon</p>
+              <h4><a href="https://aneventapart.com/event/denver-2022#s36937" target="_blank" rel="noopener noreferrer">Multilingual design for the web (and beyond)</a></h4>
+              <p>An Event Apart San Francisco 2022</p>
+              <p>San Francisco</p>
             </li>
             <li>
-              <h4><a href="https://aneventapart.com/event/spring-summit-2022#s32412" target="_blank" rel="noopener noreferrer">Beyond the screen: Immersive design for spaces</a></h4>
-              <p>An Event Apart Spring Summit 2022</p>
-              <p>Virtual</p>
+              <h4><a href="https://aneventapart.com/event/denver-2022#s36937" target="_blank" rel="noopener noreferrer">Multilingual design for the web (and beyond)</a></h4>
+              <p>An Event Apart Denver 2022</p>
+              <p>Denver</p>
             </li>
             <li>
-              <h4><a href="https://www-cmswire.simplermedia.com/cw-wb-220330-brightspot-cx.html" target="_blank" rel="noopener noreferrer">Omnichannel content modeling for voice, immersive, and beyond</a></h4>
-              <p>CMSWire webinar</p>
+              <h4><a href="https://www.telerik.com/devreach-2022/agenda?agendaPath=session/940351" target="_blank" rel="noopener noreferrer">Democratizing JavaScript, Jamstack, and beyond for more than just developers</a></h4>
+              <p>DevReach Boston 2022</p>
+              <p>Boston</p>
             </li>
           </ul>
           <h3>Recent keynotes</h3>
