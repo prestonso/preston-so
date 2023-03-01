@@ -534,6 +534,38 @@ nav ul li a:hover,  nav ul li a:active {
   color: #000;
 }
 
+.card--dark-magenta {
+  background: #232323 url('../images/card-dark-sienna.png') repeat fixed;
+}
+
+.card--dark-magenta h2,
+.card--dark-magenta a {
+  color: rgb(223,0,62);
+}
+
+.card--dark-magenta a.call-to-action--link {
+  background-color: rgba(223,0,62,0.75);
+}
+
+.card--dark-magenta a.call-to-action--link:hover,
+.card--dark-magenta a.call-to-action--link:active {
+  background-color: rgb(223,0,62);
+}
+
+.card--dark-magenta .card__container {
+  background-color: rgba(223,0,62,0.5);
+}
+
+.card--dark-magenta .card__feature {
+  background: transparent url('../images/card-books-feature-immersive-content.png') no-repeat top right;
+  background-size: contain;
+  min-height: 33em;
+}
+
+.card--dark-magenta .card__feature__content a {
+  color: rgb(221,88,123);
+}
+
 .card--dark-sienna {
   background: #232323 url('../images/card-dark-sienna.png') repeat fixed;
 }
