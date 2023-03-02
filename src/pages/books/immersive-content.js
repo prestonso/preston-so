@@ -17,8 +17,8 @@ const ImmersiveContentPage = () => (
     <Card
       type="dark-magenta"
       orientation="right"
-      title="Content, in space."
-      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/voice-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Learn more</a></p>}
+      title="Does your content have a sense of place?"
+      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Learn more</a></p>}
       featureLink="https://abookapart.com/products/immersive-content-and-usability"
       featureTitle={<em>Immersive Content and Usability</em>}
       featureBody={<p>The first-ever book on immersive content and spatial content, <strong>coming soon</strong>.</p>}
@@ -48,33 +48,33 @@ const ImmersiveContentPage = () => (
           <ul>
             <li>
               <h3>Chapter 1</h3>
-              <h4>Conversations with computers</h4>
-              <p>Understand how voice differs from the larger conversational landscape when it comes to content strategy and spoken versus written interfaces.</p>
+              <h4>Content’s final frontier</h4>
+              <p>Establish the right foundation for working with immersive and spatial content by understanding immersion and types of immersive content.</p>
             </li>
             <li>
               <h3>Chapter 2</h3>
-              <h4>Getting content ready for voice</h4>
-              <p>Author, design, and plan voice content that’s future-proof, by auditing your existing web content so it’s ready for prime time or conceiving new copy.</p>
+              <h4>The tech of immersion</h4>
+              <p>Get started with the underpinnings of immersive tech and learn the inner workings of geolocation, beacons, digital signage, and extended reality.</p>
             </li>
             <li>
               <h3>Chapter 3</h3>
-              <h4>Crafting dialogues</h4>
-              <p>Connect the dots between content items with the glue of onboarding, prompts, intents, and responses. Good design means good writing.</p>
+              <h4>What makes content immersive?</h4>
+              <p>Whether you’re working with new or existing copy, immersive content challenges us to think in terms of readability and reachability in space.</p>
             </li>
             <li>
               <h3>Chapter 4</h3>
-              <h4>Diagramming flows</h4>
-              <p>Deliver voice content in discoverable ways by leveraging aural, not visual, approaches to wayfinding rooted in habitable and linear flows.</p>
+              <h4>Making flow happen</h4>
+              <p>Construct the core mechanics of your immersive content by leveraging design artifacts like storyboards, flow diagrams, and spatial maps.</p>
             </li>
             <li>
               <h3>Chapter 5</h3>
-              <h4>Readying voice content for launch</h4>
-              <p>Prepare for usability testing and release paradigms that challenge our foregoing web-based approaches in subtle and not-so-subtle ways.</p>
+              <h4>Ready for liftoff</h4>
+              <p>Plan your release and strengthen your implementation through usability and accessibility testing as well as quality assurance and deployment.</p>
             </li>
             <li>
               <h3>Chapter 6</h3>
-              <h4>The future of voice content</h4>
-              <p>Learn what’s ahead in voice and how it’s confronting new possibilities—and risks—in accessibility, equity, and the very notion of what content is.</p>
+              <h4>Beyond content’s final frontier</h4>
+              <p>How can immersive content make user experiences more equitable right now and in the future? Hint: the metaverse as it stands now isn’t it.</p>
             </li>
           </ul>
         </>
