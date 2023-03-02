@@ -26,7 +26,7 @@ if (!spaceId || !accessToken) {
 module.exports = {
   siteMetadata: {
     title: `preston.so`,
-    description: `Product strategist, innovation lead, developer advocate`,
+    description: `Product, design, engineering, and innovation leader, digital architect and strategist, designer and developer advocate, and author`,
     author: `@prestonso`,
   },
   plugins: [
