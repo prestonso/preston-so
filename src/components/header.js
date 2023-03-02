@@ -21,9 +21,9 @@ const Header = ({ siteTitle }) => (
       </ul>
     </nav>
     <div className="header__language-selector">
-      <p><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank"><strong><em>Gatsby: The Definitive Guide</em></strong></a> is the first authoritative guide to building with Gatsby, available now.</p>
+      <p><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><strong><em>Immersive Content and Usability</em></strong></a> is the first-ever book on immersive content and spatial content design, available soon from A Book Apart.</p>
       <ul>
-        <li><a href="https://www.oreilly.com/library/view/gatsby-the-definitive/9781492087502/" rel="noopener noreferrer" target="_blank">Buy now</a></li>
+        <li><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank">Learn more</a></li>
       </ul>
     </div>
   </header>
