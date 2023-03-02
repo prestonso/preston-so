@@ -23,7 +23,7 @@ const AboutPage = () => (
         <>
           <blockquote>
             <p>“Probably the smartest person working in this industry right now.”</p>
-            <cite><a href="https://deanebarker.net/" target="_blank" rel="noopener noreferrer">Deane Barker</a>, author of <em>Web Content Management</em></cite>
+            <cite><a href="https://deanebarker.net/" target="_blank" rel="noopener noreferrer">Deane Barker</a> (2020), author of <em>Web Content Management</em></cite>
           </blockquote>
           <p><strong>Preston So</strong> (he/they) is a product, design, engineering, and innovation leader, digital architect and strategist, designer and developer advocate, polyglot educator and speaker, and author of <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link> (A Book Apart, 2021), <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link> (O'Reilly, 2021), and <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link> (Apress, 2018).</p>
           <p>Preston has been a programmer since 1999, a web developer and designer since 2001, a creative professional since 2004, a content architect since 2007, and a conversational and immersive designer since 2016. Since 2015, he has led product, design, engineering, and innovation teams at organizations like Acquia, Time Inc., and Gatsby.</p>
