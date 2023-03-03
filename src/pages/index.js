@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => (
       orientation="right"
       title="I write books & more."
       titleLink="/books"
-      body={<p>I’m an editor for <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a>, a columnist for <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>, and a contributor to <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a>. I also wrote the definitive books about <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>. <Link to="/writing" className="call-to-action--link">Read my articles</Link></p>}
+      body={<p>I’m an <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a> editor, <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a> columnist, and <a href="https://www.smashingmagazine.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>Smashing Magazine</em></a> contributor. I also wrote the definitive books about <Link to="/books/immersive-content">immersive content</Link>, <Link to="/books/voice-content">voice content</Link>, <Link to="/books/gatsby">Gatsby</Link>, and <Link to="/books/decoupled-drupal">decoupled Drupal</Link>. <Link to="/writing" className="call-to-action--link">Read my articles</Link></p>}
       listing={
         <>
           <h3>On <Link to="/writing"><em>preston.so</em></Link></h3>
