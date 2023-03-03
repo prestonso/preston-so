@@ -74,7 +74,7 @@ const ImmersiveContentPage = () => (
             <li>
               <h3>Chapter 6</h3>
               <h4>Beyond content’s final frontier</h4>
-              <p>How can immersive content make user experiences more equitable right now and in the future? Hint: the metaverse as it stands now isn’t it.</p>
+              <p>How can immersive content make user experiences more equitable right now and in the future? Spoiler: the metaverse as it stands now isn’t it.</p>
             </li>
           </ul>
         </>
