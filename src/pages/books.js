@@ -50,7 +50,7 @@ const BooksPage = () => (
       orientation="right"
       title="Decoupled Drupal, across the stack."
       titleLink="/books/decoupled-drupal"
-      body={<p>The comprehensive authority on decoupled Drupal, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link>. <Link to="/books/decoupled-drupal" className="call-to-action--link">What’s in the book?</Link></p>}
+      body={<p>The comprehensive authority on decoupled Drupal, with a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link>. <a href="https://www.apress.com/gp/book/9781484240717" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://preston.so/books/decoupled-drupal"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal, <strong>available now</strong>.</p>}

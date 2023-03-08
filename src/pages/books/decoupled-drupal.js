@@ -19,7 +19,7 @@ const DecoupledDrupalPage = () => (
       type="dark-gold book"
       orientation="left"
       title="Decoupled Drupal, across the stack."
-      body={<p>The comprehensive authority on decoupled Drupal, and a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><em>Decoupled Drupal in Practice</em></a>. <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Available now</a></p>}
+      body={<p>The comprehensive authority on decoupled Drupal, and a foreword by <a href="https://dri.es/a-book-for-decoupled-drupal-practitioners" target="_blank" rel="noreferrer noopener">Dries Buytaert</a>, who called this Apress book “a must-have guide,” can only be found in <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer"><em>Decoupled Drupal in Practice</em></a>. <a href="https://www.apress.com/gp/book/9781484240717" target="_blank" rel="noopener noreferrer" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://www.apress.com/gp/book/9781484240717"
       featureTitle={<em>Decoupled Drupal in Practice</em>}
       featureBody={<p>The first and only comprehensive guide to decoupled Drupal, <strong>available now</strong>.</p>}
