@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
     <div className="header__language-selector">
       <p><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><strong><em>Immersive Content and Usability</em></strong></a> is the first-ever book on immersive content and spatial content design, available soon from A Book Apart.</p>
       <ul>
-        <li><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank">Learn more</a></li>
+        <li><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank">Preorder now</a></li>
       </ul>
     </div>
   </header>

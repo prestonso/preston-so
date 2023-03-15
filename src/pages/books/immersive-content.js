@@ -18,7 +18,7 @@ const ImmersiveContentPage = () => (
       type="dark-magenta"
       orientation="right"
       title="Does your content have a sense of place?"
-      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Learn more</a></p>}
+      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
       featureLink="https://abookapart.com/products/immersive-content-and-usability"
       featureTitle={<em>Immersive Content and Usability</em>}
       featureBody={<p>The first-ever book on immersive content and spatial content, <strong>coming soon</strong>.</p>}
@@ -34,7 +34,7 @@ const ImmersiveContentPage = () => (
           <p>As it turns out, extending the two-dimensional canvases that have long defined our landscape of web design and interface design into the three-dimensional universe doesn’t require multivariate calculus, 3D graphics expertise, or physics courses. With a critical mass of knowledge about what makes immersive technologies tick and how spatial computing figures in user experiences, you too can build compelling immersive content that enriches your existing writing.</p>
           <p><em>Immersive Content and Usability</em> will give you the strategies and tactics you need to make immersive content a readable—and reachable—reality. Get insights from immersive case studies in realms as disparate as location-based content, low-energy beacons, digital signage, and extended reality. Regardless of your background in spatial computing, and especially if you’ve always found immersive headsets wonky and impenetrable, come with me as we jump away from the devices characterizing our blocky interfaces and into the universes realizing our wildest dreams.</p>
           <p>Don’t believe me? By the time you finish my book, your content will truly be everywhere.</p>
-          <p className="call-to-action--block"><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Learn more</a></p>
+          <p className="call-to-action--block"><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Preorder now</a></p>
         </>
       }
     />
@@ -42,7 +42,7 @@ const ImmersiveContentPage = () => (
       type="light-navy"
       orientation="left"
       title="What's in the book?"
-      body={<p><em>Immersive Content and Usability</em>, with a foreword by Reginé Gilbert, gives you the tools you need to think about immersive content, work with spatial tech, build design artifacts, and launch. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Learn more</a></p>}
+      body={<p><em>Immersive Content and Usability</em>, with a foreword by Reginé Gilbert, gives you the tools you need to think about immersive content, work with spatial tech, build design artifacts, and launch. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noreferrer noopener" target="_blank" className="call-to-action--link">Preorder now</a></p>}
       listing={
         <>
           <ul>
