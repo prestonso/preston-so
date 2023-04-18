@@ -80,6 +80,28 @@ const ImmersiveContentPage = () => (
         </>
       }
     />
+    <Card
+      type="main"
+      orientation="no"
+      title={<>Praise for <em>Immersive Content and Usability</em></>}
+      body={
+        <>
+          <blockquote>
+            <p>“Preston So guides design practitioners through an inspiring and actionable journey, traversing between digital rectangles and the physical world. An excellent primer to crafting contextually aware experiences of value, this book equips readers with the essentials needed for creating welcoming, useful, and empowering content.”</p>
+            <cite><a href="https://jalehafshar.com" target="_blank" rel="noopener noreferrer">Jaleh Afshar</a>, Director of Design at Meta</cite>
+          </blockquote>
+          <blockquote>
+            <p>“Preston So unpacks a complex and formidable topic and examines it in an engaging and inviting way. Throughout <em>Immersive Content and Usability</em>, So inspires us to use content to create better pathways of connection with information and each other—in real and virtual worlds, and in between.”</p>
+            <cite><a href="https://www.erikaabrams.com/" target="_blank" rel="noopener noreferrer">Erika Abrams</a>, Executive creative director of the Los Angeles Design Festival</cite>
+          </blockquote>
+          <blockquote>
+            <p>“Preston leads the way through a thorny thicket of immersive technologies and into the nutritious fruits of inclusive design and equitable experience creation. I yelled ‘Yes!’ out loud as I read this inspiring and accessible book. I think you will too.”</p>
+            <cite><a href="https://shimmeringtrashpile.com" target="_blank" rel="noopener noreferrer">Rob Ray</a>, Senior technical experience designer at Electronic Arts and associate professor of design at CSU, San Bernardino</cite>
+          </blockquote>
+          <p className="call-to-action--block"><a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>
+        </>
+      }
+    />
   </Layout>
 )
 
