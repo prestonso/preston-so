@@ -20,10 +20,10 @@ const IndexPage = ({ data }) => (
       orientation="left"
       title="Content, everywhere."
       titleLink="/books/immersive-content"
-      body={<p>Today’s content needs to leap off devices and into the physical spaces we live and work in. Reach the final frontier of content design with my newest book <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a>. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>Today’s content needs to leap off devices and into the physical spaces we live and work in. Reach the final frontier of content design with my newest book <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a>. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://abookapart.com/products/immersive-content-and-usability"
       featureTitle={<em>Immersive Content and Usability</em>}
-      featureBody={<p>The first-ever book on immersive content and spatial content, <strong>coming soon</strong>.</p>}
+      featureBody={<p>The first-ever book on immersive content and spatial content, <strong>available now</strong>.</p>}
     />
     <Card
       type="light-blue book"

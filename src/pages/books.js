@@ -20,10 +20,10 @@ const BooksPage = () => (
       orientation="left"
       title="Content in space."
       titleLink="/books/immersive-content"
-      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Preorder now</a></p>}
+      body={<p>Content everywhere doesn’t just mean on every device and on every screen. Is your content seamless across places both physical and digital? <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank"><em>Immersive Content and Usability</em></a> will get you there. <a href="https://abookapart.com/products/immersive-content-and-usability" rel="noopener noreferrer" target="_blank" className="call-to-action--link">Buy now</a></p>}
       featureLink="https://abookapart.com/products/immersive-content-and-usability"
       featureTitle={<em>Immersive Content and Usability</em>}
-      featureBody={<p>The first-ever book on immersive content and spatial content, <strong>coming soon</strong>.</p>}
+      featureBody={<p>The first-ever book on immersive content and spatial content, <strong>available now</strong>.</p>}
     />
     <Card
       type="light-blue book"
