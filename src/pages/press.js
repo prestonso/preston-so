@@ -40,16 +40,22 @@ const PressPage = ({ data }) => (
 export const query = graphql`
   query {
     allNodeAppearance(
-      sort: { fields: date, order: DESC }
+      sort: {
+        fields: [field_date],
+        order: DESC
+      }
     ) {
       edges {
         node {
           id
           title
-          publication
-          author
-          date(formatString: "MMMM DD, YYYY")
-          link
+          link:field_link {
+            uri
+            title
+          }
+          author:field_author
+          publication:field_publication
+          date:field_date
         }
       }
     }
