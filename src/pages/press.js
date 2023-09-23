@@ -22,7 +22,7 @@ const PressPage = ({ data }) => (
       body={
         <div className="card__content__listing">
           <ul>
-            {data.allPrestonSoAppearance.edges.map(( {node }) => (
+            {data.allAppearance.edges.map(({ node }) => (
               <li key={node.id}>
                 <h4><a href={node.link} title={node.title}>{node.title}</a></h4>
                 {node.author && <p>{node.author}</p>}
@@ -39,7 +39,7 @@ const PressPage = ({ data }) => (
 
 export const query = graphql`
   query {
-    allPrestonSoAppearance(
+    allAppearance(
       sort: { fields: date, order: DESC }
     ) {
       edges {
@@ -48,7 +48,7 @@ export const query = graphql`
           title
           publication
           author
-          date(formatString: "MMMM D, YYYY")
+          date(formatString: "MMMM DD, YYYY")
           link
         }
       }
