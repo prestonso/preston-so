@@ -22,6 +22,10 @@ const AboutPage = () => (
       body={
         <>
           <blockquote>
+            <p>“The smartest guy in the field.”</p>
+            <cite><a href="https://karenmcgrane.com/" target="_blank" rel="noopener noreferrer">Karen McGrane</a> (2024), author of <em>Content Strategy for Mobile</em></cite>
+          </blockquote>
+          <blockquote>
             <p>“Probably the smartest person working in this industry right now.”</p>
             <cite><a href="https://deanebarker.net/" target="_blank" rel="noopener noreferrer">Deane Barker</a> (2020), author of <em>Web Content Management</em></cite>
           </blockquote>
