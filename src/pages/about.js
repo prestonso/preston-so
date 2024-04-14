@@ -23,11 +23,11 @@ const AboutPage = () => (
         <>
           <blockquote>
             <p>“The smartest guy in the field.”</p>
-            <cite><a href="https://karenmcgrane.com/" target="_blank" rel="noopener noreferrer">Karen McGrane</a> (2024), author of <em>Content Strategy for Mobile</em></cite>
+            <cite>—<a href="https://karenmcgrane.com/" target="_blank" rel="noopener noreferrer">Karen McGrane</a> (2024), author of <em>Content Strategy for Mobile</em></cite>
           </blockquote>
           <blockquote>
             <p>“Probably the smartest person working in this industry right now.”</p>
-            <cite><a href="https://deanebarker.net/" target="_blank" rel="noopener noreferrer">Deane Barker</a> (2020), author of <em>Web Content Management</em></cite>
+            <cite>—<a href="https://deanebarker.net/" target="_blank" rel="noopener noreferrer">Deane Barker</a> (2020), author of <em>Web Content Management</em></cite>
           </blockquote>
           <p><strong>Preston So</strong> (he/they) is a senior product leader with 20 years in software and 9 years leading product, design, engineering, and developer relations functions at organizations such as Oracle, Acquia, dotCMS, Time Inc., and Gatsby. He is Vice President, Product at dotCMS and the author of <Link to="/books/immersive-content"><em>Immersive Content and Usability</em></Link> (A Book Apart, 2023), <Link to="/books/gatsby"><em>Gatsby: The Definitive Guide</em></Link> (O'Reilly, 2021), <Link to="/books/voice-content"><em>Voice Content and Usability</em></Link> (A Book Apart, 2021), and <Link to="/books/decoupled-drupal"><em>Decoupled Drupal in Practice</em></Link> (Apress, 2018).</p>
           <p>Preston is a globally recognized authority on the intersections of content, design, and code. Named “probably the smartest person working in this industry right now” by <em>Web Content Management</em> author Deane Barker in 2020 and a top influencer in Onalytica’s <a href="https://onalytica.com/blog/posts/whos-who-in-digital-experience/" target="_blank" rel="noopener noreferrer">“Who’s Who in Digital Experience”</a> in 2021, Preston has been a programmer since 1999, a web developer and designer since 2001, a creative professional since 2004, a content architect since 2007, and a conversational and immersive designer since 2016. He is an editor at <a href="https://alistapart.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>A List Apart</em></a> and former columnist at <a href="https://www.cmswire.com/author/preston-so/" target="_blank" rel="noopener noreferrer"><em>CMSWire</em></a>.</p>
