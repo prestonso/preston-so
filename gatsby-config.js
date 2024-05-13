@@ -65,13 +65,5 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: contentfulConfig,
     },
-    {
-      resolve: `gatsby-source-cec`,
-      options: {
-        contentServer: `https://demo-oce0001.cec.ocp.oraclecloud.com/`,
-        channelToken: process.env.OCE_ACCESS_TOKEN,
-        fromCache: false,
-      },
-    },
   ],
 }
