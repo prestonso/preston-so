@@ -65,5 +65,19 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: contentfulConfig,
     },
+    {
+      resolve: 'gatsby-source-dotcms',
+      options: {
+        host: {
+          protocol: 'https',
+          url: `${process.env.DOTCMS_INSTANCE_URL}`,
+          identifier: `${process.env.DOTCMS_INSTANCE_TYPE_ID}`,
+        },
+        credentials: {
+          email: `${process.env.DOTCMS_INSTANCE_EMAIL}`,
+          password: `${process.env.DOTCMS_INSTANCE_PASSWORD}`,
+        },
+      },
+    },
   ],
 }
