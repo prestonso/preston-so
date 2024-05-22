@@ -69,7 +69,7 @@ module.exports = {
       resolve: 'gatsby-source-dotcms',
       options: {
         host: {
-          protocol: 'https',
+          protocol: 'http',
           url: `${process.env.DOTCMS_INSTANCE_URL}`,
           identifier: `${process.env.DOTCMS_INSTANCE_TYPE_ID}`,
         },
