@@ -22,7 +22,7 @@ const PressPage = ({ data }) => (
       body={
         <div className="card__content__listing">
           <ul>
-            {data.allDotCmsAppearance.edges.map(({ node }) => (
+            {data.allNodeAppearance.edges.map(({ node }) => (
               <li key={node.id}>
                 <h4><a href={node.link} title={node.title}>{node.title}</a></h4>
                 {node.author && <p>{node.author}</p>}
@@ -39,15 +39,23 @@ const PressPage = ({ data }) => (
 
 export const query = graphql`
   query {
-    allDotCmsAppearance {
+    allNodeAppearance(
+      sort: {
+        fields: [field_date],
+        order: DESC
+      }
+    ) {
       edges {
         node {
           id
           title
-          link: linkUrl
-          author
-          publication
-          date(formatString: "MMMM D, YYYY")
+          link:field_link {
+            uri
+            title
+          }
+          author:field_author
+          publication:field_publication
+          date:field_date
         }
       }
     }
