@@ -13,7 +13,7 @@ class DotCMSApi {
         const getUrl = () => {
             return `${this.getBaseUrl()}/api/content/render/false/query/+contentType:${contentType}%20+(conhost:${
                 this.options.host.identifier
-            }%20conhost:SYSTEM_HOST)%20+languageId:1%20+deleted:false%20+working:true/orderby/modDate%20desc`
+            }%20conhost:SYSTEM_HOST)%20+languageId:1%20+deleted:false%20+working:true/orderby/modDate%20desc/limit/25`
         }
 
         return fetch(getUrl())
