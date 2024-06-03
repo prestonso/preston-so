@@ -6,13 +6,13 @@ class DotCMSApi {
     }
 
     getBaseUrl() {
-        return `${this.options.host.protocol}://${this.options.host.url}`
+        return `https://${process.env.DOTCMS_INSTANCE_URL}`
     }
 
     getContentletsByContentType(contentType) {
         const getUrl = () => {
             return `${this.getBaseUrl()}/api/content/render/false/query/+contentType:${contentType}%20+(conhost:${
-                this.options.host.identifier
+                process.env.DOTCMS_INSTANCE_TYPE_ID
             }%20conhost:SYSTEM_HOST)%20+languageId:1%20+deleted:false%20+working:true/orderby/modDate%20desc/limit/25`
         }
 
@@ -35,7 +35,7 @@ class DotCMSApi {
         return fetch(getUrl(), {
             headers: {
                 DOTAUTH: Buffer.from(
-                    `${this.options.credentials.email}:${this.options.credentials.password}`
+                    `${process.env.DOTCMS_INSTANCE_EMAIL}:${process.env.DOTCMS_INSTANCE_PASSWORD}`
                 ).toString('base64'),
             },
         })
