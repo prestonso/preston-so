@@ -24,7 +24,7 @@ const PressPage = ({ data }) => (
           <ul>
             {data.allNodeAppearance.edges.map(({ node }) => (
               <li key={node.id}>
-                <h4><a href={node.link} title={node.title}>{node.title}</a></h4>
+                <h4><a href={node.link.uri} title={node.title}>{node.title}</a></h4>
                 {node.author && <p>{node.author}</p>}
                 <p><em>{node.publication}</em></p>
                 <p><small>{node.date}</small></p>
