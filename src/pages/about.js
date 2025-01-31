@@ -13,7 +13,7 @@ const AboutPage = () => (
       type="intro"
       orientation="no"
       title="About"
-      body={<p>Preston is a <strong>product, design, engineering, and innovation leader</strong>, <strong>digital architect and strategist</strong>, <strong>designer and developer advocate</strong>, and <strong>author</strong>.</p>}
+      body={<p>Preston is a <strong>product, design, engineering, and executive leader</strong>, <strong>digital architect and strategist</strong>, <strong>designer and developer advocate</strong>, and <strong>author</strong>.</p>}
     />
     <Card
       type="main"
