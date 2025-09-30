@@ -32,6 +32,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://preston.so`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -66,11 +72,17 @@ module.exports = {
       options: contentfulConfig,
     },
     {
-      resolve: `gatsby-source-cec`,
+      resolve: 'gatsby-source-dotcms',
       options: {
-        contentServer: `https://demo-oce0001.cec.ocp.oraclecloud.com/`,
-        channelToken: process.env.OCE_ACCESS_TOKEN,
-        fromCache: false,
+        host: {
+          protocol: 'https',
+          url: `${process.env.DOTCMS_INSTANCE_URL}`,
+          identifier: `${process.env.DOTCMS_INSTANCE_TYPE_ID}`,
+        },
+        credentials: {
+          email: `${process.env.DOTCMS_INSTANCE_EMAIL}`,
+          password: `${process.env.DOTCMS_INSTANCE_PASSWORD}`,
+        },
       },
     },
   ],
